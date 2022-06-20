@@ -1,0 +1,8 @@
+
+.minecraft/dashloader-cache/
+.minecraft/logs/
+.minecraft/crash-reports/
+.minecraft/XaeroWaypoints*/
+.minecraft/usercache.json
+.minecraft/servers.dat_old
+.minecraft/saves
