@@ -1,0 +1,9 @@
+{
+  "text.autoconfig.smoke_suppression.title": "Конфигурация подавления дыма",
+  "text.autoconfig.smoke_suppression.option.suppressing_blocks_list": "Список подавляющих блоков",
+  "text.autoconfig.smoke_suppression.option.suppressing_blocks_list.@Tooltip[0]": "Список блоков, которые будут подавлять дым любого размещенного над ними костра.",
+  "text.autoconfig.smoke_suppression.option.suppressing_blocks_list.@Tooltip[1]": "§lСуществующие костры должны быть перепоставлены или загружены заново для отражения изменений конфигурации",
+  "text.autoconfig.smoke_suppression.option.always_suppress_smoke": "Всегда подавлять дым",
+  "text.autoconfig.smoke_suppression.option.always_suppress_smoke.@Tooltip[0]": "Подавлять частицы дыма, независимо от того, какой блок находится под кострами.",
+  "text.autoconfig.smoke_suppression.option.always_suppress_smoke.@Tooltip[1]": "§lСуществующие костры должны быть перепоставлены или загружены заново для отражения изменений конфигурации"
+}

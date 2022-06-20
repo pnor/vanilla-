@@ -1,0 +1,9 @@
+{
+  "text.autoconfig.smoke_suppression.title": "Smoke Suppression Configuration",
+  "text.autoconfig.smoke_suppression.option.suppressing_blocks_list": "Suppressing blocks list",
+  "text.autoconfig.smoke_suppression.option.suppressing_blocks_list.@Tooltip[0]": "List of blocks that will suppress the\nsmoke of any campfire placed above them.",
+  "text.autoconfig.smoke_suppression.option.suppressing_blocks_list.@Tooltip[1]": "§lExisting campfires must be re-placed\nor re-loaded to reflect config changes",
+  "text.autoconfig.smoke_suppression.option.always_suppress_smoke": "Always suppress smoke",
+  "text.autoconfig.smoke_suppression.option.always_suppress_smoke.@Tooltip[0]": "Suppress smoke particles regardless of\nwhich block is beneath a campfire.",
+  "text.autoconfig.smoke_suppression.option.always_suppress_smoke.@Tooltip[1]": "§lExisting campfires must be re-placed\nor re-loaded to reflect config changes"
+}

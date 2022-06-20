@@ -1,0 +1,9 @@
+{
+  "text.autoconfig.smoke_suppression.title": "Configuración de Supresión de humo",
+  "text.autoconfig.smoke_suppression.option.suppressing_blocks_list": "Lista de bloques supresores",
+  "text.autoconfig.smoke_suppression.option.suppressing_blocks_list.@Tooltip[0]": "Lista de bloques que suprimirán el humo de cualquier hoguera colocada encima de ellos.",
+  "text.autoconfig.smoke_suppression.option.suppressing_blocks_list.@Tooltip[1]": "§lExisting campfires must be re-placed\nor re-loaded to reflect config changes",
+  "text.autoconfig.smoke_suppression.option.always_suppress_smoke": "Siempre suprimir el humo",
+  "text.autoconfig.smoke_suppression.option.always_suppress_smoke.@Tooltip[0]": "Suprime las partículas de humo sin importar qué bloque esté debajo de una hoguera.",
+  "text.autoconfig.smoke_suppression.option.always_suppress_smoke.@Tooltip[1]": "§lExisting campfires must be re-placed\nor re-loaded to reflect config changes"
+}
