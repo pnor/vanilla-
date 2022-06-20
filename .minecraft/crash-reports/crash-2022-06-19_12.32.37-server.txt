@@ -1,0 +1,244 @@
+---- Minecraft Crash Report ----
+// Shall we play a game?
+
+Time: 6/19/22, 12:32 PM
+Description: Exception generating new chunk
+
+java.lang.IllegalStateException: Feature order cycle found, involved biomes: [Reference{ResourceKey[minecraft:worldgen/biome / byg:basalt_barrera]=net.minecraft.class_1959@74ceed2c}]
+	at net.minecraft.class_1966.method_39525(class_1966.java:136)
+	at net.fabricmc.fabric.impl.biome.modification.BiomeModificationImpl.lambda$finalizeWorldGen$4(BiomeModificationImpl.java:173)
+	at com.google.common.base.Suppliers$NonSerializableMemoizingSupplier.get(Suppliers.java:183)
+	at net.minecraft.class_1966.method_38115(class_1966.java:258)
+	at net.minecraft.class_2794.method_12102(class_2794.java:401)
+	at net.minecraft.class_2806.method_20613(class_2806.java:146)
+	at net.minecraft.class_2806.md162230$lambda$injectLightmapSetup$1$4(class_2806.java:1546)
+	at net.minecraft.class_2806.method_12154(class_2806.java:289)
+	at net.minecraft.class_3898.method_17225(class_3898.java:649)
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38)
+	at net.minecraft.class_3898.method_17224(class_3898.java:643)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+	at net.minecraft.class_3900.method_17634(class_3900.java:62)
+	at net.minecraft.class_3846.method_16907(class_3846.java:91)
+	at net.minecraft.class_3846.method_16900(class_3846.java:146)
+	at net.minecraft.class_3846.run(class_3846.java:102)
+	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1395)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server thread
+Stacktrace:
+	at net.minecraft.class_1966.method_39525(class_1966.java:136)
+	at net.fabricmc.fabric.impl.biome.modification.BiomeModificationImpl.lambda$finalizeWorldGen$4(BiomeModificationImpl.java:173)
+	at com.google.common.base.Suppliers$NonSerializableMemoizingSupplier.get(Suppliers.java:183)
+	at net.minecraft.class_1966.method_38115(class_1966.java:258)
+	at net.minecraft.class_2794.method_12102(class_2794.java:401)
+	at net.minecraft.class_2806.method_20613(class_2806.java:146)
+	at net.minecraft.class_2806.md162230$lambda$injectLightmapSetup$1$4(class_2806.java:1546)
+	at net.minecraft.class_2806.method_12154(class_2806.java:289)
+	at net.minecraft.class_3898.method_17225(class_3898.java:649)
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38)
+	at net.minecraft.class_3898.method_17224(class_3898.java:643)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+	at net.minecraft.class_3900.method_17634(class_3900.java:62)
+	at net.minecraft.class_3846.method_16907(class_3846.java:91)
+	at net.minecraft.class_3846.method_16900(class_3846.java:146)
+	at net.minecraft.class_3846.run(class_3846.java:102)
+
+-- Chunk to be generated --
+Details:
+	Location: -9,-8
+	Position hash: -30064771081
+	Generator: net.minecraft.class_3754@5953a06
+Stacktrace:
+	at net.minecraft.class_3898.method_17225(class_3898.java:649)
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38)
+	at net.minecraft.class_3898.method_17224(class_3898.java:643)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+	at net.minecraft.class_3900.method_17634(class_3900.java:62)
+	at net.minecraft.class_3846.method_16907(class_3846.java:91)
+	at net.minecraft.class_3846.method_16900(class_3846.java:146)
+	at net.minecraft.class_3846.run(class_3846.java:102)
+	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1395)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+-- Affected level --
+Details:
+	All players: 0 total; []
+	Chunk stats: 625
+	Level dimension: minecraft:overworld
+	Level spawn location: World: (-120,64,-104), Section: (at 8,0,8 in -8,4,-7; chunk contains blocks -128,-64,-112 to -113,319,-97), Region: (-1,-1; contains chunks -32,-32 to -1,-1, blocks -512,-64,-512 to -1,319,-1)
+	Level time: 0 game time, 0 day time
+	Level name: New World
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: true
+	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+	Known server brands: fabric
+	Level was modded: true
+	Level storage version: 0x04ABD - Anvil
+Stacktrace:
+	at net.minecraft.server.MinecraftServer.method_3786(MinecraftServer.java:391)
+	at net.minecraft.server.MinecraftServer.method_3735(MinecraftServer.java:330)
+	at net.minecraft.class_1132.method_3823(class_1132.java:70)
+	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:670)
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:273)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.18.2
+	Minecraft Version ID: 1.18.2
+	Operating System: Linux (amd64) version 5.17.1-zen-g088047a81e4c
+	Java Version: 18.0.1.1, N/A
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 954294624 bytes (910 MiB) / 2629828608 bytes (2508 MiB) up to 5368709120 bytes (5120 MiB)
+	CPUs: 8
+	Processor Vendor: GenuineIntel
+	Processor Name: Intel(R) Core(TM) i7-7820HQ CPU @ 2.90GHz
+	Identifier: Intel64 Family 6 Model 158 Stepping 9
+	Microarchitecture: unknown
+	Frequency (GHz): 2.90
+	Number of physical packages: 1
+	Number of physical CPUs: 4
+	Number of logical CPUs: 8
+	Graphics card #0 name: Baffin [Radeon RX 460/560D / Pro 450/455/460/555/555X/560/560X]
+	Graphics card #0 vendor: Advanced Micro Devices, Inc. [AMD/ATI] (0x1002)
+	Graphics card #0 VRAM (MB): 258.00
+	Graphics card #0 deviceId: 0x67ef
+	Graphics card #0 versionInfo: unknown
+	Virtual memory max (MB): 12042.67
+	Virtual memory used (MB): 5125.39
+	Swap memory total (MB): 4094.00
+	Swap memory used (MB): 0.00
+	JVM Flags: 2 total; -Xms512m -Xmx5120m
+	Fabric Mods: 
+		apotheosis: Apotheosis 0.2.71
+			fake-player-api: Fake Player API 0.3.0
+			porting_lib: Porting Lib 1.1.0-beta+1.18.2-dev.aabdc61
+				forge_tags: Forge Tags 2.1
+				serialization_hooks: Serialization Hooks 0.2.0+1.18.cb29164
+					com_github_llamalad7_mixinextras: MixinExtras 0.0.10
+			reach-entity-attributes: Reach Entity Attributes 2.1.1
+		architectury: Architectury 4.4.68
+		attributefix: AttributeFix 14.0.2
+		betteranimalsplus: Better Animals Plus 1.18.2-11.0.5
+		betterdungeons: YUNG's Better Dungeons 1.18.2-Fabric-2.1.0
+		bettermineshafts: YUNG's Better Mineshafts 1.18.2-Fabric-2.1.3
+		betterstrongholds: YUNG's Better Strongholds 1.18.2-Fabric-2.1.1
+		bookshelf: Bookshelf 13.2.18
+		byg: Oh The Biomes You'll Go 1.4
+		capybara: Capybara 1.0.4
+		chisel: Chisel Refabricated 1.4.5
+		cloth-config: Cloth Config v6 6.2.62
+			cloth-basic-math: cloth-basic-math 0.6.1
+		clumps: Clumps 8.0.0+10
+		customstars: Custom Stars 0.8+1.18.2
+		dwayne-the-block-johnson: Dwayne 'The Block' Johnson 2.0
+		effective: Effective 1.2.1
+		enchdesc: EnchantmentDescriptions 10.0.3
+		fabric: Fabric API 0.55.1+1.18.2
+			fabric-api-base: Fabric API Base 0.4.4+d7c144a860
+			fabric-api-lookup-api-v1: Fabric API Lookup API (v1) 1.6.1+2373a54560
+			fabric-biome-api-v1: Fabric Biome API (v1) 8.0.4+7b0f312660
+			fabric-blockrenderlayer-v1: Fabric BlockRenderLayer Registration (v1) 1.1.12+3ac43d9560
+			fabric-command-api-v1: Fabric Command API (v1) 1.1.9+d7c144a860
+			fabric-commands-v0: Fabric Commands (v0) 0.2.8+b4f4f6cd60
+			fabric-containers-v0: Fabric Containers (v0) 0.1.22+d7c144a860
+			fabric-content-registries-v0: Fabric Content Registries (v0) 3.0.6+d82b939260
+			fabric-convention-tags-v1: Fabric Convention Tags 1.0.1+474e4f7960
+			fabric-crash-report-info-v1: Fabric Crash Report Info (v1) 0.2.1+ee261a3e60
+			fabric-data-generation-api-v1: Fabric Data Generation API (v1) 3.0.0+9fcb91d260
+			fabric-dimensions-v1: Fabric Dimensions API (v1) 2.1.19+ffb2c71e60
+			fabric-entity-events-v1: Fabric Entity Events (v1) 1.4.8+d7c144a860
+			fabric-events-interaction-v0: Fabric Events Interaction (v0) 0.4.19+d7c144a860
+			fabric-events-lifecycle-v0: Fabric Events Lifecycle (v0) 0.2.17+d7c144a860
+			fabric-game-rule-api-v1: Fabric Game Rule API (v1) 1.0.13+d7c144a860
+			fabric-item-api-v1: Fabric Item API (v1) 1.5.1+6c4e5d0960
+			fabric-item-groups-v0: Fabric Item Groups (v0) 0.3.13+91896a4960
+			fabric-key-binding-api-v1: Fabric Key Binding API (v1) 1.0.12+54e5b2ec60
+			fabric-keybindings-v0: Fabric Key Bindings (v0) 0.2.10+b4f4f6cd60
+			fabric-lifecycle-events-v1: Fabric Lifecycle Events (v1) 2.0.4+d8d7804a60
+			fabric-loot-api-v2: Fabric Loot API (v2) 1.0.0+e747827960
+			fabric-loot-tables-v1: Fabric Loot Tables (v1) 1.1.0+e747827960
+			fabric-mining-level-api-v1: Fabric Mining Level API (v1) 2.1.2+81ea5b3c60
+			fabric-models-v0: Fabric Models (v0) 0.3.6+d7c144a860
+			fabric-networking-api-v1: Fabric Networking API (v1) 1.0.22+e6b169eb60
+			fabric-networking-v0: Fabric Networking (v0) 0.3.9+b4f4f6cd60
+			fabric-object-builder-api-v1: Fabric Object Builder API (v1) 2.1.2+032c981d60
+			fabric-particles-v1: Fabric Particles (v1) 0.2.12+526dc1ac60
+			fabric-registry-sync-v0: Fabric Registry Sync (v0) 0.9.9+0d9ab37260
+			fabric-renderer-api-v1: Fabric Renderer API (v1) 0.4.13+d882b91560
+			fabric-renderer-indigo: Fabric Renderer - Indigo 0.5.0+7faf0d8860
+			fabric-renderer-registries-v1: Fabric Renderer Registries (v1) 3.2.11+b4f4f6cd60
+			fabric-rendering-data-attachment-v1: Fabric Rendering Data Attachment (v1) 0.3.7+d7c144a860
+			fabric-rendering-fluids-v1: Fabric Rendering Fluids (v1) 2.0.2+54e5b2ec60
+			fabric-rendering-v0: Fabric Rendering (v0) 1.1.13+b4f4f6cd60
+			fabric-rendering-v1: Fabric Rendering (v1) 1.10.7+54e5b2ec60
+			fabric-resource-conditions-api-v1: Fabric Resource Conditions API (v1) 2.0.3+91b7aa6660
+			fabric-resource-loader-v0: Fabric Resource Loader (v0) 0.5.1+e747827960
+			fabric-screen-api-v1: Fabric Screen API (v1) 1.0.10+d882b91560
+			fabric-screen-handler-api-v1: Fabric Screen Handler API (v1) 1.2.1+1f6558e860
+			fabric-textures-v0: Fabric Textures (v0) 1.0.12+3ac43d9560
+			fabric-transfer-api-v1: Fabric Transfer API (v1) 1.6.2+f4563ac860
+			fabric-transitive-access-wideners-v1: Fabric Transitive Access Wideners (v1) 1.1.0+e747827960
+		fabricloader: Fabric Loader 0.14.6
+		farmersdelight: Farmer's Delight 1.18.2-0.2.1
+		feature_nbt_deadlock_be_gone: Feature NBT Deadlock Be Gone - Fabric 2.0.0+1.18.2-rc1
+		friendsandfoes: Friends&Foes 1.4.3
+			mm: Manningham Mills 2.3
+		illuminations: Illuminations 1.10.4
+		immersive_portals: Immersive Portals 1.4.5
+			imm_ptl_core: Immersive Portals Core 1.4.5
+			q_misc_util: QMiscUtil 1.4.5
+		incantationem: Incantationem 1.1.3+1.18.2
+		indium: Indium 1.0.3+mc1.18.2
+		iris: Iris 1.2.5
+			org_anarres_jcpp: jcpp 1.4.14
+		java: OpenJDK 64-Bit Server VM 18
+		lazydfu: LazyDFU 0.1.2
+		lithium: Lithium 0.7.10
+		minecraft: Minecraft 1.18.2
+		modmenu: Mod Menu 3.2.2
+		no-telemetry: No Telemetry 1.3.0
+		pehkui: Pehkui 3.3.2+1.14.4-1.19
+			kanos_config: Kanos Config 0.3.1+1.14.4-1.19
+		phosphor: Phosphor 0.8.1
+		reeses-sodium-options: Reese's Sodium Options 1.4.2
+		repurposed_structures: Repurposed Structures 4.1.14+1.18.2
+			omega-config: OmegaConfig 1.0.8
+		seasons: Fabric Seasons 1.4-BETA+1.18
+		seedfix: Seed Fix 1.0.1
+		sizeshiftingpotions: Size Shifting Potions 1.4.0
+			midnightlib: MidnightLib 0.4.0
+		snowyleavesplus: SnowyLeavesPlus 0.1.1
+		snowytrees: Snowy Trees 1.1.0
+		sodium: Sodium 0.4.1+build.15
+			org_joml_joml: joml 1.10.2
+		sodium-extra: Sodium Extra 0.4.4+mc1.18.2-build.39
+			caffeineconfig: CaffeineConfig 1.1.0
+		terrablender: TerraBlender 1.1.0.102
+			com_electronwill_night-config_core: core 3.6.4
+			com_electronwill_night-config_toml: toml 3.6.4
+		walllanterns: Lanterns Belong on Walls 1.2.0
+		xaerominimap: Xaero's Minimap 22.9.0
+		yungsapi: YUNG's API 1.18.2-Fabric-2.0.8
+	Loaded Shaderpack: (off) [fallback, check your logs for errors]
+	Server Running: true
+	Player Count: 0 / 8; []
+	Data Packs: vanilla, Fabric Mods, file/Repurposed_Structures-Better_Strongholds_v3.zip
+	World Generation: Stable
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'fabric'; Server brand changed to 'fabric'

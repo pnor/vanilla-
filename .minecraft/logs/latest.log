@@ -1,0 +1,1848 @@
+[02:02:23] [main/INFO]: Loading Minecraft 1.18.2 with Fabric Loader 0.14.6
+[02:02:23] [ForkJoinPool-1-worker-10/WARN]: The mod "dwayne-the-block-johnson" contains invalid entries in its mod json:
+- Unsupported root entry "credits" at line 7 column 12
+[02:02:23] [ForkJoinPool-1-worker-9/WARN]: Mod twm uses the version 0.7_DEV+MC_1.18.2-unstable which isn't compatible with Loader's extended semantic version format (Could not parse version number component '7_DEV'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[02:02:23] [main/INFO]: Loading 116 mods:
+	- apotheosis 0.2.71
+	- architectury 4.4.68
+	- attributefix 14.0.2
+	- betteranimalsplus 1.18.2-11.0.5
+	- betterdeserttemples 1.18.2-Fabric-1.1.0
+	- betterdungeons 1.18.2-Fabric-2.1.0
+	- bettermineshafts 1.18.2-Fabric-2.1.3
+	- betterstrongholds 1.18.2-Fabric-2.1.1
+	- betterwitchhuts 1.18.2-Fabric-1.0
+	- bookshelf 13.2.18
+	- byg 1.4
+	- caffeineconfig 1.1.0 via sodium-extra
+	- capybara 1.0.4
+	- chisel 1.4.5
+	- cloth-basic-math 0.6.1 via cloth-config
+	- cloth-config 6.2.62
+	- clumps 8.0.0+10
+	- com_electronwill_night-config_core 3.6.4 via terrablender
+	- com_electronwill_night-config_toml 3.6.4 via terrablender
+	- com_github_llamalad7_mixinextras 0.0.10 via serialization_hooks
+	- customstars 0.8+1.18.2
+	- dwayne-the-block-johnson 2.0
+	- effective 1.2.1
+	- enchdesc 10.0.3
+	- fabric 0.55.1+1.18.2
+	- fabric-api-base 0.4.4+d7c144a860 via fabric
+	- fabric-api-lookup-api-v1 1.6.1+2373a54560 via fabric
+	- fabric-biome-api-v1 8.0.4+7b0f312660 via fabric
+	- fabric-blockrenderlayer-v1 1.1.12+3ac43d9560 via fabric
+	- fabric-command-api-v1 1.1.9+d7c144a860 via fabric
+	- fabric-commands-v0 0.2.8+b4f4f6cd60 via fabric
+	- fabric-containers-v0 0.1.22+d7c144a860 via fabric
+	- fabric-content-registries-v0 3.0.6+d82b939260 via fabric
+	- fabric-convention-tags-v1 1.0.1+474e4f7960 via fabric
+	- fabric-crash-report-info-v1 0.2.1+ee261a3e60 via fabric
+	- fabric-data-generation-api-v1 3.0.0+9fcb91d260 via fabric
+	- fabric-dimensions-v1 2.1.19+ffb2c71e60 via fabric
+	- fabric-entity-events-v1 1.4.8+d7c144a860 via fabric
+	- fabric-events-interaction-v0 0.4.19+d7c144a860 via fabric
+	- fabric-events-lifecycle-v0 0.2.17+d7c144a860 via fabric
+	- fabric-game-rule-api-v1 1.0.13+d7c144a860 via fabric
+	- fabric-item-api-v1 1.5.1+6c4e5d0960 via fabric
+	- fabric-item-groups-v0 0.3.13+91896a4960 via fabric
+	- fabric-key-binding-api-v1 1.0.12+54e5b2ec60 via fabric
+	- fabric-keybindings-v0 0.2.10+b4f4f6cd60 via fabric
+	- fabric-lifecycle-events-v1 2.0.4+d8d7804a60 via fabric
+	- fabric-loot-api-v2 1.0.0+e747827960 via fabric
+	- fabric-loot-tables-v1 1.1.0+e747827960 via fabric
+	- fabric-mining-level-api-v1 2.1.2+81ea5b3c60 via fabric
+	- fabric-models-v0 0.3.6+d7c144a860 via fabric
+	- fabric-networking-api-v1 1.0.22+e6b169eb60 via fabric
+	- fabric-networking-v0 0.3.9+b4f4f6cd60 via fabric
+	- fabric-object-builder-api-v1 2.1.2+032c981d60 via fabric
+	- fabric-particles-v1 0.2.12+526dc1ac60 via fabric
+	- fabric-registry-sync-v0 0.9.9+0d9ab37260 via fabric
+	- fabric-renderer-api-v1 0.4.13+d882b91560 via fabric
+	- fabric-renderer-indigo 0.5.0+7faf0d8860 via fabric
+	- fabric-renderer-registries-v1 3.2.11+b4f4f6cd60 via fabric
+	- fabric-rendering-data-attachment-v1 0.3.7+d7c144a860 via fabric
+	- fabric-rendering-fluids-v1 2.0.2+54e5b2ec60 via fabric
+	- fabric-rendering-v0 1.1.13+b4f4f6cd60 via fabric
+	- fabric-rendering-v1 1.10.7+54e5b2ec60 via fabric
+	- fabric-resource-conditions-api-v1 2.0.3+91b7aa6660 via fabric
+	- fabric-resource-loader-v0 0.5.1+e747827960 via fabric
+	- fabric-screen-api-v1 1.0.10+d882b91560 via fabric
+	- fabric-screen-handler-api-v1 1.2.1+1f6558e860 via fabric
+	- fabric-textures-v0 1.0.12+3ac43d9560 via fabric
+	- fabric-transfer-api-v1 1.6.2+f4563ac860 via fabric
+	- fabric-transitive-access-wideners-v1 1.1.0+e747827960 via fabric
+	- fabricloader 0.14.6
+	- fake-player-api 0.3.0 via apotheosis
+	- farmersdelight 1.18.2-0.2.1
+	- feature_nbt_deadlock_be_gone 2.0.0+1.18.2-rc1
+	- forge_tags 2.1 via porting_lib
+	- friendsandfoes 1.4.3
+	- illuminations 1.10.4
+	- imm_ptl_core 1.4.5 via immersive_portals
+	- immersive_portals 1.4.5
+	- incantationem 1.1.3+1.18.2
+	- indium 1.0.3+mc1.18.2
+	- iris 1.2.5
+	- java 18
+	- kanos_config 0.3.1+1.14.4-1.19 via pehkui
+	- lazydfu 0.1.2
+	- lithium 0.7.10
+	- midnightlib 0.4.0 via sizeshiftingpotions
+	- minecraft 1.18.2
+	- mm 2.3 via twm
+	- modmenu 3.2.2
+	- no-telemetry 1.3.0
+	- omega-config 1.0.8 via repurposed_structures
+	- org_anarres_jcpp 1.4.14 via iris
+	- org_joml_joml 1.10.2 via sodium
+	- pehkui 3.3.2+1.14.4-1.19
+	- phosphor 0.8.1
+	- porting_lib 1.1.0-beta+1.18.2-dev.aabdc61 via apotheosis
+	- q_misc_util 1.4.5 via immersive_portals
+	- reach-entity-attributes 2.1.1 via apotheosis
+	- reeses-sodium-options 1.4.2
+	- repurposed_structures 4.1.14+1.18.2
+	- seasons 1.4-BETA+1.18
+	- seedfix 1.0.1
+	- serialization_hooks 0.2.0+1.18.cb29164 via porting_lib
+	- sizeshiftingpotions 1.4.0
+	- snowyleavesplus 0.1.1
+	- snowytrees 1.1.0
+	- sodium 0.4.1+build.15
+	- sodium-extra 0.4.4+mc1.18.2-build.39
+	- terrablender 1.1.0.102
+	- tooltipfix 1.0.4-1.18
+	- twm 0.7_DEV+MC_1.18.2-unstable
+	- walllanterns 1.2.0
+	- xaerominimap 22.9.0
+	- yungsapi 1.18.2-Fabric-2.0.8
+	- yungsbridges 1.18.2-Fabric-2.1.0
+	- yungsextras 1.18.2-Fabric-2.1.0
+[02:02:23] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/game/GeneralLibrary/polymc/libraries/net/fabricmc/sponge-mixin/0.11.4+mixin.0.8.5/sponge-mixin-0.11.4+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
+[02:02:23] [main/INFO]: Compatibility level set to JAVA_17
+[02:02:23] [main/INFO]: Loaded configuration file for Lithium: 102 options available, 1 override(s) found
+[02:02:23] [main/INFO]: Loaded configuration file for Sodium: 29 options available, 1 override(s) found
+[02:02:23] [main/INFO]: Loaded configuration file for Sodium Extra: 27 options available, 0 override(s) found
+[02:02:23] [main/WARN]: Reference map 'yungsbridges.refmap.json' for yungsbridges.mixins.json could not be read. If this is a development environment you can ignore this message
+[02:02:23] [main/WARN]: Reference map 'yungsbridges.refmap.json' for yungsbridges_fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[02:02:23] [main/WARN]: Reference map 'yungsextras.refmap.json' for yungsextras.mixins.json could not be read. If this is a development environment you can ignore this message
+[02:02:23] [main/WARN]: Reference map 'yungsextras.refmap.json' for yungsextras_fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[02:02:24] [main/WARN]: Force-disabling mixin 'world.player_chunk_tick.ThreadedAnvilChunkStorageMixin' as rule 'mixin.world.player_chunk_tick' (added by mods [immersive_portals]) disables it and children
+[02:02:24] [main/WARN]: Force-disabling mixin 'features.sky.MixinWorldRenderer' as rule 'mixin.features.sky' (added by mods [iris]) disables it and children
+[02:02:24] [main/WARN]: Failed to add authlib to knot
+java.lang.NoSuchMethodException: net.fabricmc.loader.impl.launch.knot.KnotClassLoader.addURL(java.net.URL)
+	at java.lang.Class.getMethod(Class.java:2259) ~[?:?]
+	at de.kb1000.notelemetry.NoTelemetryPreLaunch.onPreLaunch(NoTelemetryPreLaunch.java:22) ~[no-telemetry-1.3.0.jar:?]
+	at net.fabricmc.loader.impl.entrypoint.EntrypointUtils.invoke0(EntrypointUtils.java:47) [fabric-loader-0.14.6.jar:?]
+	at net.fabricmc.loader.impl.entrypoint.EntrypointUtils.invoke(EntrypointUtils.java:35) [fabric-loader-0.14.6.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:162) [fabric-loader-0.14.6.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:68) [fabric-loader-0.14.6.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.6.jar:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
+	at org.multimc.impl.OneSixLauncher.invokeMain(OneSixLauncher.java:104) [NewLaunch.jar:?]
+	at org.multimc.impl.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:175) [NewLaunch.jar:?]
+	at org.multimc.impl.OneSixLauncher.launch(OneSixLauncher.java:185) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.listen(EntryPoint.java:127) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.main(EntryPoint.java:57) [NewLaunch.jar:?]
+[02:02:24] [main/INFO]: Killing telemetry
+[02:02:25] [main/WARN]: Configuration conflict: there is more than one oshi.properties file on the classpath
+[02:02:25] [main/WARN]: Configuration conflict: there is more than one oshi.architecture.properties file on the classpath
+[02:02:26] [main/WARN]: @Final field field_11199:Lnet/minecraft/class_2758; in twm.mixins.json:LeavesBlockMixin from mod twm should be final
+[02:02:26] [main/WARN]: @Final field field_11200:Lnet/minecraft/class_2746; in twm.mixins.json:LeavesBlockMixin from mod twm should be final
+[02:02:27] [main/WARN]: @Final field field_6205:Lnet/minecraft/class_2371; in twm.mixins.json:MobEntityMixin from mod twm should be final
+[02:02:27] [main/WARN]: @Final field field_6195:Lnet/minecraft/class_2371; in twm.mixins.json:MobEntityMixin from mod twm should be final
+[02:02:27] [main/WARN]: @Final field field_6187:[F in twm.mixins.json:MobEntityMixin from mod twm should be final
+[02:02:27] [main/WARN]: @Final field field_6186:[F in twm.mixins.json:MobEntityMixin from mod twm should be final
+[02:02:27] [main/WARN]: @Final field field_6193:Lnet/minecraft/class_2940; in twm.mixins.json:MobEntityMixin from mod twm should be final
+[02:02:28] [main/WARN]: @ModifyConstant conflict. Skipping yungsapi.mixins.json:IncreaseStructureWeightLimitMixin from mod yungsapi->@ModifyConstant::yungsapi_increaseWeightLimit(I)I with priority 1000, already redirected by repurposed_structures.mixins.json:structures.StructurePoolMixin from mod repurposed_structures->@ModifyConstant::repurposedstructures_increaseWeightLimitProd(I)I with priority 1000
+[02:02:29] [Render thread/WARN]: Method overwrite conflict for method_22920 in sodium.mixins.json:features.buffer_builder.intrinsics.MixinBufferBuilder from mod sodium, previously written by net.coderbot.iris.mixin.vertices.block_rendering.MixinBufferBuilder_SeparateAo. Skipping method.
+[02:02:29] [Render thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[02:02:29] [Render thread/ERROR]: Failed to verify authentication
+com.mojang.authlib.exceptions.InsufficientPrivilegesException: Status: 403
+	at com.mojang.authlib.exceptions.MinecraftClientHttpException.toAuthenticationException(MinecraftClientHttpException.java:52) ~[authlib-3.3.39.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:132) ~[authlib-3.3.39.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.<init>(YggdrasilUserApiService.java:44) ~[authlib-3.3.39.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.createUserApiService(YggdrasilAuthenticationService.java:153) ~[authlib-3.3.39.jar:?]
+	at net.minecraft.class_310.method_31382(class_310.java:680) [client-intermediary.jar:?]
+	at net.minecraft.class_310.<init>(class_310.java:424) [client-intermediary.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:197) [client-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:460) [fabric-loader-0.14.6.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.6.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.6.jar:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
+	at org.multimc.impl.OneSixLauncher.invokeMain(OneSixLauncher.java:104) [NewLaunch.jar:?]
+	at org.multimc.impl.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:175) [NewLaunch.jar:?]
+	at org.multimc.impl.OneSixLauncher.launch(OneSixLauncher.java:185) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.listen(EntryPoint.java:127) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.main(EntryPoint.java:57) [NewLaunch.jar:?]
+Caused by: com.mojang.authlib.exceptions.MinecraftClientHttpException: Status: 403
+	at com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:78) ~[authlib-3.3.39.jar:?]
+	at com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:48) ~[authlib-3.3.39.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:113) ~[authlib-3.3.39.jar:?]
+	... 15 more
+[02:02:29] [Render thread/INFO]: Setting user: Endoman123
+[02:02:29] [Render thread/ERROR]: Enchantment apotheosis:life_mending has min/max power 205/200 at level 4, making this level unobtainable.
+[02:02:29] [Render thread/ERROR]: Enchantment apotheosis:knowledge has min/max power 235/200 at level 4, making this level unobtainable.
+[02:02:29] [Render thread/ERROR]: Enchantment apotheosis:rebounding has min/max power 202/200 at level 6, making this level unobtainable.
+[02:02:30] [Render thread/INFO]: Injecting super coyotes...
+[02:02:30] [Render thread/INFO]: Overspawning lammergeiers...
+[02:02:30] [Render thread/INFO]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
+[02:02:30] [Render thread/INFO]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
+[02:02:30] [Render thread/INFO]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
+[02:02:30] [Render thread/INFO]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
+[02:02:30] [Render thread/INFO]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
+[02:02:30] [Render thread/INFO]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
+[02:02:30] [Render thread/INFO]: BYG registries bootstrapped
+[02:02:30] [Render thread/ERROR]: No data fixer registered for byg:boat
+[02:02:31] [Render thread/INFO]: "/game/GeneralLibrary/polymc/instances/vanilla-/.minecraft/config/byg/growing-patterns.json5" was read.
+[02:02:31] [Render thread/INFO]: "/game/GeneralLibrary/polymc/instances/vanilla-/.minecraft/config/byg/end-biomes.json5" was read.
+[02:02:31] [Render thread/INFO]: "/game/GeneralLibrary/polymc/instances/vanilla-/.minecraft/config/byg/nether-biomes.json5" was read.
+[02:02:31] [Render thread/INFO]: "/game/GeneralLibrary/polymc/instances/vanilla-/.minecraft/config/byg/settings.json5" was read.
+[02:02:31] [Render thread/INFO]: BYG: "Common Setup" Event Complete!
+[02:02:31] [Render thread/INFO]: BYG: Compostible Blocks Added!
+[02:02:31] [Render thread/INFO]: BYG: Added tillables!
+[02:02:31] [Render thread/INFO]: BYG: Added Flammables!
+[02:02:31] [Render thread/INFO]: BYG: Added strippable Blocks...
+[02:02:31] [Render thread/INFO]: "/game/GeneralLibrary/polymc/instances/vanilla-/.minecraft/config/byg/overworld/byg-overworld-biomes.json5" was read.
+[02:02:31] [Render thread/INFO]: "/game/GeneralLibrary/polymc/instances/vanilla-/.minecraft/config/byg/byg-biome-dictionary.json" was read.
+[02:02:31] [Render thread/INFO]: "/game/GeneralLibrary/polymc/instances/vanilla-/.minecraft/config/byg/surface_rules/overworld_surface_rules.json5" was read.
+[02:02:31] [Render thread/INFO]: "/game/GeneralLibrary/polymc/instances/vanilla-/.minecraft/config/byg/surface_rules/nether_surface_rules.json5" was read.
+[02:02:31] [Render thread/INFO]: "/game/GeneralLibrary/polymc/instances/vanilla-/.minecraft/config/byg/surface_rules/end_surface_rules.json5" was read.
+[02:02:31] [Render thread/INFO]: "/game/GeneralLibrary/polymc/instances/vanilla-/.minecraft/config/byg/trades.json5" was read.
+[02:02:31] [Render thread/INFO]: "/game/GeneralLibrary/polymc/instances/vanilla-/.minecraft/config/byg/biomepedia.json5" was read.
+[02:02:31] [Render thread/INFO]: Created compressed zip back up for "/game/GeneralLibrary/polymc/instances/vanilla-/.minecraft/config/byg" in "/game/GeneralLibrary/polymc/instances/vanilla-/.minecraft/config/byg/backups/last_working_configs_backup.zip"
+[02:02:31] [Render thread/INFO]: BYG: "Load Complete" Event Complete!
+[02:02:31] [Render thread/INFO]: Initializing BYG network...
+[02:02:31] [Render thread/INFO]: Initialized BYG network!
+[02:02:31] [Render thread/INFO]: Oh The Biomes You'll Go (BYG) was initialized from "Fabric Mod Initializer"
+[02:02:31] [Render thread/INFO]: Capybara is downloaded, loading now! Thanks for installing! <3
+[02:02:31] [Render thread/INFO]: [Custom Stars] Initializing Custom Stars...
+[02:02:31] [Render thread/INFO]: Immersive Portals Mod Initializing
+[02:02:31] [Render thread/INFO]: Porting Lib is present
+[02:02:31] [Render thread/INFO]: Dimensional Threading is not present
+[02:02:31] [Render thread/INFO]: Pehkui is present
+[02:02:31] [Render thread/INFO]: Gravity Changer is not present
+[02:02:31] [Render thread/INFO]: Definitely not up to no good
+[02:02:31] [Render thread/INFO]: Trying to read config file...
+[02:02:31] [Render thread/INFO]: A config file was found, loading it..
+[02:02:31] [Render thread/INFO]: Successfully loaded config file.
+[02:02:31] [Render thread/INFO]: Loaded seedfix v1.0.1 by Justsnoopy30!
+[02:02:31] [Render thread/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[02:02:31] [Render thread/INFO]: Registered region minecraft:nether to index 0 for type NETHER
+[02:02:31] [Render thread/INFO]: Registered region byg:region_0 to index 1 for type OVERWORLD
+[02:02:31] [Render thread/INFO]: Registered region byg:region_1 to index 2 for type OVERWORLD
+[02:02:31] [Render thread/INFO]: Registered region byg:region_2 to index 3 for type OVERWORLD
+[02:02:31] [Render thread/INFO]: Registered region byg:region_3 to index 4 for type OVERWORLD
+[02:02:31] [Render thread/INFO]: Rendering squirrel physics...
+[02:02:31] [Render thread/INFO]: "/game/GeneralLibrary/polymc/instances/vanilla-/.minecraft/config/client_data/byg/biomepedia.dat" was read.
+[02:02:31] [Render thread/INFO]: BYG: "Client Setup" Event Complete!
+[02:02:32] [Render thread/WARN]: @Inject(@At("INVOKE")) Shift.BY=2 on mixins.iris.json:texture.MixinAbstractTexture from mod iris::handler$cdl000$iris$afterGenerateId exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[02:02:32] [Render thread/INFO]: Loaded config file.
+[02:02:32] [Render thread/INFO]: Saved config file.
+[02:02:32] [Render thread/INFO]: [Indigo] Different rendering plugin detected; not applying Indigo.
+[02:02:32] [Render thread/INFO]: IP Config Applied
+[02:02:32] [Render thread/INFO]: Sodium is present
+[02:02:32] [Render thread/INFO]: Iris is present
+[02:02:32] [Render thread/INFO]: Loading Xaero's Minimap - Stage 1/2
+[02:02:33] [Render thread/INFO]: Backend library: LWJGL version 3.2.2 build 10
+[02:02:33] [ForkJoinPool.commonPool-worker-1/WARN]: [Iris Update Check] Unable to download https://github.com/IrisShaders/Iris-Update-Index/releases/download/test/updateIndex.json
+[02:02:33] [Render thread/INFO]: Debug functionality is disabled.
+[02:02:33] [Render thread/ERROR]: Failed to load the shaderpack "BSL_v8.1.02.2.zip" because it does not exist in your shaderpacks folder!
+[02:02:33] [Render thread/WARN]: Falling back to normal rendering without shaders because the shaderpack could not be loaded
+[02:02:33] [Render thread/INFO]: Shaders are disabled
+[02:02:33] [Render thread/INFO]: Hardware information:
+[02:02:33] [Render thread/INFO]: CPU: 12x AMD Ryzen 5 3600 6-Core Processor
+[02:02:33] [Render thread/INFO]: GPU: AMD Radeon RX 5600 XT (navi10, LLVM 13.0.1, DRM 3.46, 5.18.5-zen1-1-zen) (Supports OpenGL 4.6 (Core Profile) Mesa 22.1.1)
+[02:02:33] [Render thread/INFO]: OS: Linux (5.18.5-zen1-1-zen)
+[02:02:34] [Render thread/WARN]: ERROR : Couldn't load Narrator library
+java.lang.UnsatisfiedLinkError: Unable to load library 'fliteWrapper':
+libflite.so.1: cannot open shared object file: No such file or directory
+libflite.so.1: cannot open shared object file: No such file or directory
+Native library (linux-x86-64/libfliteWrapper.so) not found in resource path (/game/GeneralLibrary/polymc/share/jars/NewLaunch.jar:/game/GeneralLibrary/polymc/libraries/org/lwjgl/lwjgl-glfw/3.2.2/lwjgl-glfw-3.2.2.jar:/game/GeneralLibrary/polymc/libraries/org/lwjgl/lwjgl-jemalloc/3.2.2/lwjgl-jemalloc-3.2.2.jar:/game/GeneralLibrary/polymc/libraries/org/lwjgl/lwjgl-openal/3.2.2/lwjgl-openal-3.2.2.jar:/game/GeneralLibrary/polymc/libraries/org/lwjgl/lwjgl-opengl/3.2.2/lwjgl-opengl-3.2.2.jar:/game/GeneralLibrary/polymc/libraries/org/lwjgl/lwjgl-stb/3.2.2/lwjgl-stb-3.2.2.jar:/game/GeneralLibrary/polymc/libraries/org/lwjgl/lwjgl-tinyfd/3.2.2/lwjgl-tinyfd-3.2.2.jar:/game/GeneralLibrary/polymc/libraries/org/lwjgl/lwjgl/3.2.2/lwjgl-3.2.2.jar:/game/GeneralLibrary/polymc/libraries/com/mojang/logging/1.0.0/logging-1.0.0.jar:/game/GeneralLibrary/polymc/libraries/com/mojang/blocklist/1.0.10/blocklist-1.0.10.jar:/game/GeneralLibrary/polymc/libraries/com/mojang/patchy/2.2.10/patchy-2.2.10.jar:/game/GeneralLibrary/polymc/libraries/com/github/oshi/oshi-core/5.8.5/oshi-core-5.8.5.jar:/game/GeneralLibrary/polymc/libraries/net/java/dev/jna/jna/5.10.0/jna-5.10.0.jar:/game/GeneralLibrary/polymc/libraries/net/java/dev/jna/jna-platform/5.10.0/jna-platform-5.10.0.jar:/game/GeneralLibrary/polymc/libraries/org/slf4j/slf4j-api/1.8.0-beta4/slf4j-api-1.8.0-beta4.jar:/game/GeneralLibrary/polymc/libraries/org/apache/logging/log4j/log4j-slf4j18-impl/2.17.1/log4j-slf4j18-impl-2.17.1.jar:/game/GeneralLibrary/polymc/libraries/com/ibm/icu/icu4j/70.1/icu4j-70.1.jar:/game/GeneralLibrary/polymc/libraries/com/mojang/javabridge/1.2.24/javabridge-1.2.24.jar:/game/GeneralLibrary/polymc/libraries/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/game/GeneralLibrary/polymc/libraries/io/netty/netty-all/4.1.68.Final/netty-all-4.1.68.Final.jar:/game/GeneralLibrary/polymc/libraries/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/game/GeneralLibrary/polymc/libraries/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar:/game/GeneralLibrary/polymc/libraries/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/game/GeneralLibrary/polymc/libraries/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/game/GeneralLibrary/polymc/libraries/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/game/GeneralLibrary/polymc/libraries/com/mojang/brigadier/1.0.18/brigadier-1.0.18.jar:/game/GeneralLibrary/polymc/libraries/com/mojang/datafixerupper/4.1.27/datafixerupper-4.1.27.jar:/game/GeneralLibrary/polymc/libraries/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar:/game/GeneralLibrary/polymc/libraries/com/mojang/authlib/3.3.39/authlib-3.3.39.jar:/game/GeneralLibrary/polymc/libraries/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/game/GeneralLibrary/polymc/libraries/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/game/GeneralLibrary/polymc/libraries/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/game/GeneralLibrary/polymc/libraries/org/apache/httpcomponents/httpcore/4.4.14/httpcore-4.4.14.jar:/game/GeneralLibrary/polymc/libraries/it/unimi/dsi/fastutil/8.5.6/fastutil-8.5.6.jar:/game/GeneralLibrary/polymc/libraries/org/apache/logging/log4j/log4j-api/2.17.1/log4j-api-2.17.1.jar:/game/GeneralLibrary/polymc/libraries/org/apache/logging/log4j/log4j-core/2.17.1/log4j-core-2.17.1.jar:/game/GeneralLibrary/polymc/libraries/com/mojang/text2speech/1.12.4/text2speech-1.12.4.jar:/game/GeneralLibrary/polymc/libraries/net/fabricmc/intermediary/1.18.2/intermediary-1.18.2.jar:/game/GeneralLibrary/polymc/libraries/net/fabricmc/tiny-mappings-parser/0.3.0+build.17/tiny-mappings-parser-0.3.0+build.17.jar:/game/GeneralLibrary/polymc/libraries/net/fabricmc/sponge-mixin/0.11.4+mixin.0.8.5/sponge-mixin-0.11.4+mixin.0.8.5.jar:/game/GeneralLibrary/polymc/libraries/net/fabricmc/tiny-remapper/0.8.2/tiny-remapper-0.8.2.jar:/game/GeneralLibrary/polymc/libraries/net/fabricmc/access-widener/2.1.0/access-widener-2.1.0.jar:/game/GeneralLibrary/polymc/libraries/org/ow2/asm/asm/9.3/asm-9.3.jar:/game/GeneralLibrary/polymc/libraries/org/ow2/asm/asm-analysis/9.3/asm-analysis-9.3.jar:/game/GeneralLibrary/polymc/libraries/org/ow2/asm/asm-commons/9.3/asm-commons-9.3.jar:/game/GeneralLibrary/polymc/libraries/org/ow2/asm/asm-tree/9.3/asm-tree-9.3.jar:/game/GeneralLibrary/polymc/libraries/org/ow2/asm/asm-util/9.3/asm-util-9.3.jar:/game/GeneralLibrary/polymc/libraries/net/fabricmc/fabric-loader/0.14.6/fabric-loader-0.14.6.jar:/game/GeneralLibrary/polymc/libraries/com/mojang/minecraft/1.18.2/minecraft-1.18.2-client.jar)
+	at com.sun.jna.NativeLibrary.loadLibrary(NativeLibrary.java:301) ~[jna-5.10.0.jar:?]
+	at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:461) ~[jna-5.10.0.jar:?]
+	at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:403) ~[jna-5.10.0.jar:?]
+	at com.mojang.text2speech.NarratorLinux.<clinit>(NarratorLinux.java:18) [text2speech-1.12.4.jar:?]
+	at com.mojang.text2speech.Narrator.getNarrator(Narrator.java:21) [text2speech-1.12.4.jar:?]
+	at net.minecraft.class_333.<init>(class_333.java:26) [client-intermediary.jar:?]
+	at net.minecraft.class_333.<clinit>(class_333.java:24) [client-intermediary.jar:?]
+	at net.minecraft.class_329.<init>(class_329.java:165) [client-intermediary.jar:?]
+	at net.minecraft.class_310.<init>(class_310.java:593) [client-intermediary.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:197) [client-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:460) [fabric-loader-0.14.6.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.6.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.6.jar:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
+	at org.multimc.impl.OneSixLauncher.invokeMain(OneSixLauncher.java:104) [NewLaunch.jar:?]
+	at org.multimc.impl.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:175) [NewLaunch.jar:?]
+	at org.multimc.impl.OneSixLauncher.launch(OneSixLauncher.java:185) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.listen(EntryPoint.java:127) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.main(EntryPoint.java:57) [NewLaunch.jar:?]
+	Suppressed: java.lang.UnsatisfiedLinkError: libflite.so.1: cannot open shared object file: No such file or directory
+		at com.sun.jna.Native.open(Native Method) ~[jna-5.10.0.jar:?]
+		at com.sun.jna.NativeLibrary.loadLibrary(NativeLibrary.java:191) ~[jna-5.10.0.jar:?]
+		at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:461) ~[jna-5.10.0.jar:?]
+		at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:403) ~[jna-5.10.0.jar:?]
+		at com.mojang.text2speech.NarratorLinux.<clinit>(NarratorLinux.java:18) [text2speech-1.12.4.jar:?]
+		at com.mojang.text2speech.Narrator.getNarrator(Narrator.java:21) [text2speech-1.12.4.jar:?]
+		at net.minecraft.class_333.<init>(class_333.java:26) [client-intermediary.jar:?]
+		at net.minecraft.class_333.<clinit>(class_333.java:24) [client-intermediary.jar:?]
+		at net.minecraft.class_329.<init>(class_329.java:165) [client-intermediary.jar:?]
+		at net.minecraft.class_310.<init>(class_310.java:593) [client-intermediary.jar:?]
+		at net.minecraft.client.main.Main.main(Main.java:197) [client-intermediary.jar:?]
+		at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:460) [fabric-loader-0.14.6.jar:?]
+		at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.6.jar:?]
+		at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.6.jar:?]
+		at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+		at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
+		at org.multimc.impl.OneSixLauncher.invokeMain(OneSixLauncher.java:104) [NewLaunch.jar:?]
+		at org.multimc.impl.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:175) [NewLaunch.jar:?]
+		at org.multimc.impl.OneSixLauncher.launch(OneSixLauncher.java:185) [NewLaunch.jar:?]
+		at org.multimc.EntryPoint.listen(EntryPoint.java:127) [NewLaunch.jar:?]
+		at org.multimc.EntryPoint.main(EntryPoint.java:57) [NewLaunch.jar:?]
+	Suppressed: java.lang.UnsatisfiedLinkError: libflite.so.1: cannot open shared object file: No such file or directory
+		at com.sun.jna.Native.open(Native Method) ~[jna-5.10.0.jar:?]
+		at com.sun.jna.NativeLibrary.loadLibrary(NativeLibrary.java:204) ~[jna-5.10.0.jar:?]
+		at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:461) ~[jna-5.10.0.jar:?]
+		at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:403) ~[jna-5.10.0.jar:?]
+		at com.mojang.text2speech.NarratorLinux.<clinit>(NarratorLinux.java:18) [text2speech-1.12.4.jar:?]
+		at com.mojang.text2speech.Narrator.getNarrator(Narrator.java:21) [text2speech-1.12.4.jar:?]
+		at net.minecraft.class_333.<init>(class_333.java:26) [client-intermediary.jar:?]
+		at net.minecraft.class_333.<clinit>(class_333.java:24) [client-intermediary.jar:?]
+		at net.minecraft.class_329.<init>(class_329.java:165) [client-intermediary.jar:?]
+		at net.minecraft.class_310.<init>(class_310.java:593) [client-intermediary.jar:?]
+		at net.minecraft.client.main.Main.main(Main.java:197) [client-intermediary.jar:?]
+		at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:460) [fabric-loader-0.14.6.jar:?]
+		at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.6.jar:?]
+		at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.6.jar:?]
+		at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+		at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
+		at org.multimc.impl.OneSixLauncher.invokeMain(OneSixLauncher.java:104) [NewLaunch.jar:?]
+		at org.multimc.impl.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:175) [NewLaunch.jar:?]
+		at org.multimc.impl.OneSixLauncher.launch(OneSixLauncher.java:185) [NewLaunch.jar:?]
+		at org.multimc.EntryPoint.listen(EntryPoint.java:127) [NewLaunch.jar:?]
+		at org.multimc.EntryPoint.main(EntryPoint.java:57) [NewLaunch.jar:?]
+	Suppressed: java.io.IOException: Native library (linux-x86-64/libfliteWrapper.so) not found in resource path (/game/GeneralLibrary/polymc/share/jars/NewLaunch.jar:/game/GeneralLibrary/polymc/libraries/org/lwjgl/lwjgl-glfw/3.2.2/lwjgl-glfw-3.2.2.jar:/game/GeneralLibrary/polymc/libraries/org/lwjgl/lwjgl-jemalloc/3.2.2/lwjgl-jemalloc-3.2.2.jar:/game/GeneralLibrary/polymc/libraries/org/lwjgl/lwjgl-openal/3.2.2/lwjgl-openal-3.2.2.jar:/game/GeneralLibrary/polymc/libraries/org/lwjgl/lwjgl-opengl/3.2.2/lwjgl-opengl-3.2.2.jar:/game/GeneralLibrary/polymc/libraries/org/lwjgl/lwjgl-stb/3.2.2/lwjgl-stb-3.2.2.jar:/game/GeneralLibrary/polymc/libraries/org/lwjgl/lwjgl-tinyfd/3.2.2/lwjgl-tinyfd-3.2.2.jar:/game/GeneralLibrary/polymc/libraries/org/lwjgl/lwjgl/3.2.2/lwjgl-3.2.2.jar:/game/GeneralLibrary/polymc/libraries/com/mojang/logging/1.0.0/logging-1.0.0.jar:/game/GeneralLibrary/polymc/libraries/com/mojang/blocklist/1.0.10/blocklist-1.0.10.jar:/game/GeneralLibrary/polymc/libraries/com/mojang/patchy/2.2.10/patchy-2.2.10.jar:/game/GeneralLibrary/polymc/libraries/com/github/oshi/oshi-core/5.8.5/oshi-core-5.8.5.jar:/game/GeneralLibrary/polymc/libraries/net/java/dev/jna/jna/5.10.0/jna-5.10.0.jar:/game/GeneralLibrary/polymc/libraries/net/java/dev/jna/jna-platform/5.10.0/jna-platform-5.10.0.jar:/game/GeneralLibrary/polymc/libraries/org/slf4j/slf4j-api/1.8.0-beta4/slf4j-api-1.8.0-beta4.jar:/game/GeneralLibrary/polymc/libraries/org/apache/logging/log4j/log4j-slf4j18-impl/2.17.1/log4j-slf4j18-impl-2.17.1.jar:/game/GeneralLibrary/polymc/libraries/com/ibm/icu/icu4j/70.1/icu4j-70.1.jar:/game/GeneralLibrary/polymc/libraries/com/mojang/javabridge/1.2.24/javabridge-1.2.24.jar:/game/GeneralLibrary/polymc/libraries/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/game/GeneralLibrary/polymc/libraries/io/netty/netty-all/4.1.68.Final/netty-all-4.1.68.Final.jar:/game/GeneralLibrary/polymc/libraries/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/game/GeneralLibrary/polymc/libraries/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar:/game/GeneralLibrary/polymc/libraries/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/game/GeneralLibrary/polymc/libraries/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/game/GeneralLibrary/polymc/libraries/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/game/GeneralLibrary/polymc/libraries/com/mojang/brigadier/1.0.18/brigadier-1.0.18.jar:/game/GeneralLibrary/polymc/libraries/com/mojang/datafixerupper/4.1.27/datafixerupper-4.1.27.jar:/game/GeneralLibrary/polymc/libraries/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar:/game/GeneralLibrary/polymc/libraries/com/mojang/authlib/3.3.39/authlib-3.3.39.jar:/game/GeneralLibrary/polymc/libraries/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/game/GeneralLibrary/polymc/libraries/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/game/GeneralLibrary/polymc/libraries/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/game/GeneralLibrary/polymc/libraries/org/apache/httpcomponents/httpcore/4.4.14/httpcore-4.4.14.jar:/game/GeneralLibrary/polymc/libraries/it/unimi/dsi/fastutil/8.5.6/fastutil-8.5.6.jar:/game/GeneralLibrary/polymc/libraries/org/apache/logging/log4j/log4j-api/2.17.1/log4j-api-2.17.1.jar:/game/GeneralLibrary/polymc/libraries/org/apache/logging/log4j/log4j-core/2.17.1/log4j-core-2.17.1.jar:/game/GeneralLibrary/polymc/libraries/com/mojang/text2speech/1.12.4/text2speech-1.12.4.jar:/game/GeneralLibrary/polymc/libraries/net/fabricmc/intermediary/1.18.2/intermediary-1.18.2.jar:/game/GeneralLibrary/polymc/libraries/net/fabricmc/tiny-mappings-parser/0.3.0+build.17/tiny-mappings-parser-0.3.0+build.17.jar:/game/GeneralLibrary/polymc/libraries/net/fabricmc/sponge-mixin/0.11.4+mixin.0.8.5/sponge-mixin-0.11.4+mixin.0.8.5.jar:/game/GeneralLibrary/polymc/libraries/net/fabricmc/tiny-remapper/0.8.2/tiny-remapper-0.8.2.jar:/game/GeneralLibrary/polymc/libraries/net/fabricmc/access-widener/2.1.0/access-widener-2.1.0.jar:/game/GeneralLibrary/polymc/libraries/org/ow2/asm/asm/9.3/asm-9.3.jar:/game/GeneralLibrary/polymc/libraries/org/ow2/asm/asm-analysis/9.3/asm-analysis-9.3.jar:/game/GeneralLibrary/polymc/libraries/org/ow2/asm/asm-commons/9.3/asm-commons-9.3.jar:/game/GeneralLibrary/polymc/libraries/org/ow2/asm/asm-tree/9.3/asm-tree-9.3.jar:/game/GeneralLibrary/polymc/libraries/org/ow2/asm/asm-util/9.3/asm-util-9.3.jar:/game/GeneralLibrary/polymc/libraries/net/fabricmc/fabric-loader/0.14.6/fabric-loader-0.14.6.jar:/game/GeneralLibrary/polymc/libraries/com/mojang/minecraft/1.18.2/minecraft-1.18.2-client.jar)
+		at com.sun.jna.Native.extractFromResourcePath(Native.java:1145) ~[jna-5.10.0.jar:?]
+		at com.sun.jna.NativeLibrary.loadLibrary(NativeLibrary.java:275) ~[jna-5.10.0.jar:?]
+		at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:461) ~[jna-5.10.0.jar:?]
+		at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:403) ~[jna-5.10.0.jar:?]
+		at com.mojang.text2speech.NarratorLinux.<clinit>(NarratorLinux.java:18) [text2speech-1.12.4.jar:?]
+		at com.mojang.text2speech.Narrator.getNarrator(Narrator.java:21) [text2speech-1.12.4.jar:?]
+		at net.minecraft.class_333.<init>(class_333.java:26) [client-intermediary.jar:?]
+		at net.minecraft.class_333.<clinit>(class_333.java:24) [client-intermediary.jar:?]
+		at net.minecraft.class_329.<init>(class_329.java:165) [client-intermediary.jar:?]
+		at net.minecraft.class_310.<init>(class_310.java:593) [client-intermediary.jar:?]
+		at net.minecraft.client.main.Main.main(Main.java:197) [client-intermediary.jar:?]
+		at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:460) [fabric-loader-0.14.6.jar:?]
+		at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.6.jar:?]
+		at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.6.jar:?]
+		at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+		at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
+		at org.multimc.impl.OneSixLauncher.invokeMain(OneSixLauncher.java:104) [NewLaunch.jar:?]
+		at org.multimc.impl.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:175) [NewLaunch.jar:?]
+		at org.multimc.impl.OneSixLauncher.launch(OneSixLauncher.java:185) [NewLaunch.jar:?]
+		at org.multimc.EntryPoint.listen(EntryPoint.java:127) [NewLaunch.jar:?]
+		at org.multimc.EntryPoint.main(EntryPoint.java:57) [NewLaunch.jar:?]
+[02:02:34] [Render thread/INFO]: Shader Transform Skipping blit_screen
+[02:02:34] [Render thread/INFO]: Shader Transform Skipping blit_screen
+[02:02:34] [Render thread/INFO]: Shader Transform Skipping blit_screen
+[02:02:34] [Render thread/INFO]: Shader Transform Skipping position
+[02:02:34] [Render thread/INFO]: Shader Transform Skipping position
+[02:02:34] [Render thread/INFO]: Shader Transform Skipping position
+[02:02:34] [Render thread/INFO]: Shader Transform Skipping position_color
+[02:02:34] [Render thread/INFO]: Shader Transform Skipping position_color
+[02:02:34] [Render thread/INFO]: Shader Transform Skipping position_color
+[02:02:34] [Render thread/INFO]: Shader Transform Skipping position_color_tex
+[02:02:34] [Render thread/INFO]: Shader Transform Skipping position_color_tex
+[02:02:34] [Render thread/INFO]: Shader Transform Skipping position_color_tex
+[02:02:34] [Render thread/INFO]: Shader Transform Skipping position_tex
+[02:02:34] [Render thread/INFO]: Shader Transform Skipping position_tex
+[02:02:34] [Render thread/INFO]: Shader Transform Skipping position_tex
+[02:02:34] [Render thread/INFO]: Shader Transform Skipping position_tex_color
+[02:02:34] [Render thread/INFO]: Shader Transform Skipping position_tex_color
+[02:02:34] [Render thread/INFO]: Shader Transform Skipping position_tex_color
+[02:02:34] [Render thread/INFO]: Shader Transform Skipping rendertype_text
+[02:02:34] [Render thread/INFO]: Shader Transform Skipping rendertype_text
+[02:02:34] [Render thread/INFO]: Shader Transform Skipping rendertype_text
+[02:02:34] [Render thread/INFO]: Reloading ResourceManager: Default, Fabric Mods (Apotheosis, AttributeFix, Better Animals Plus, YUNG's Better Desert Temples, YUNG's Better Dungeons, YUNG's Better Mineshafts, YUNG's Better Strongholds, YUNG's Better Witch Huts, Bookshelf, Oh The Biomes You'll Go, CaffeineConfig, Capybara, Chisel Refabricated, Cloth Config v6, Custom Stars, Dwayne 'The Block' Johnson, Effective, EnchantmentDescriptions, Fabric API, Fabric API Base, Fabric API Lookup API (v1), Fabric Biome API (v1), Fabric BlockRenderLayer Registration (v1), Fabric Command API (v1), Fabric Commands (v0), Fabric Containers (v0), Fabric Content Registries (v0), Fabric Convention Tags, Fabric Crash Report Info (v1), Fabric Data Generation API (v1), Fabric Dimensions API (v1), Fabric Entity Events (v1), Fabric Events Interaction (v0), Fabric Events Lifecycle (v0), Fabric Game Rule API (v1), Fabric Item API (v1), Fabric Item Groups (v0), Fabric Key Binding API (v1), Fabric Key Bindings (v0), Fabric Lifecycle Events (v1), Fabric Loot API (v2), Fabric Loot Tables (v1), Fabric Mining Level API (v1), Fabric Models (v0), Fabric Networking API (v1), Fabric Networking (v0), Fabric Object Builder API (v1), Fabric Particles (v1), Fabric Registry Sync (v0), Fabric Renderer API (v1), Fabric Renderer - Indigo, Fabric Renderer Registries (v1), Fabric Rendering Data Attachment (v1), Fabric Rendering Fluids (v1), Fabric Rendering (v0), Fabric Rendering (v1), Fabric Resource Conditions API (v1), Fabric Resource Loader (v0), Fabric Screen API (v1), Fabric Screen Handler API (v1), Fabric Textures (v0), Fabric Transfer API (v1), Fabric Transitive Access Wideners (v1), Fabric Loader, Fake Player API, Farmer's Delight, Feature NBT Deadlock Be Gone - Fabric, Friends&Foes, Illuminations, Immersive Portals Core, Immersive Portals, Incantationem, Indium, Iris, Kanos Config, LazyDFU, Lithium, MidnightLib, Manningham Mills, Mod Menu, Pehkui, Phosphor, Porting Lib, QMiscUtil, Reach Entity Attributes, Reese's Sodium Options, Repurposed Structures, Fabric Seasons, Serialization Hooks, Size Shifting Potions, SnowyLeavesPlus, Snowy Trees, Sodium, Sodium Extra, TerraBlender, ToolTip Fix, The Wild Mod, Lanterns Belong on Walls, Xaero's Minimap, YUNG's Bridges, YUNG's Extras)
+[02:02:34] [Render thread/INFO]: Creating pipeline for dimension OVERWORLD
+[02:02:34] [Render thread/INFO]: Loaded values for 26 compatible attributes.
+[02:02:34] [Render thread/INFO]: Loaded 26 values from config.
+[02:02:34] [Render thread/INFO]: Saving config file. 26 entries.
+[02:02:34] [Render thread/INFO]: Applying changes for 26 attributes.
+[02:02:34] [Render thread/INFO]: Loaded Shader Code Transformation
+[02:02:34] [Render thread/INFO]: [STDOUT]: (MidnightLib) Player hats successfully loaded!
+[02:02:34] [Render thread/INFO]: Loading Xaero's Minimap - Stage 2/2
+[02:02:34] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[02:02:34] [Render thread/INFO]: No Optifine!
+[02:02:35] [Worker-Main-10/WARN]: Exception loading blockstate definition: byg:blockstates/potted_hydrangea_bush.json: java.io.FileNotFoundException: byg:blockstates/potted_hydrangea_bush.json
+[02:02:35] [Worker-Main-10/WARN]: Exception loading blockstate definition: 'byg:blockstates/potted_hydrangea_bush.json' missing model for variant: 'byg:potted_hydrangea_bush#'
+[02:02:36] [Render thread/WARN]: Missing sound for event: chisel:chisel_sound
+[02:02:36] [Render thread/INFO]: OpenAL initialized on device JACK Default
+[02:02:36] [Render thread/INFO]: Sound engine started
+[02:02:36] [Render thread/INFO]: Created: 2048x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[02:02:36] [Render thread/INFO]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[02:02:36] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[02:02:36] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[02:02:36] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[02:02:36] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[02:02:36] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[02:02:37] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[02:02:37] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[02:02:37] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[02:02:37] [Render thread/INFO]: Successfully reloaded the minimap shaders!
+[02:02:42] [Render thread/INFO]: Connecting to endoman.strangled.net, 25575
+[02:03:00] [Render thread/INFO]: Flushed changes to Minecraft configuration
+[02:04:05] [Render thread/INFO]: Connecting to endoman.strangled.net, 25575
+[02:04:06] [Netty Epoll Client IO #1/INFO]: Successfully loaded '/game/GeneralLibrary/polymc/instances/vanilla-/.minecraft/config/betteranimalsplus-client.json5'
+[02:04:06] [Render thread/INFO]: Received Dimension Type Sync
+[02:04:06] [Render thread/INFO]: 
+minecraft:the_end -> minecraft:the_end
+immersive_portals:alternate1 -> immersive_portals:surface_type
+immersive_portals:alternate5 -> immersive_portals:surface_type
+minecraft:the_nether -> minecraft:the_nether
+minecraft:overworld -> minecraft:overworld
+immersive_portals:alternate2 -> immersive_portals:surface_type
+immersive_portals:alternate4 -> immersive_portals:surface_type
+immersive_portals:alternate3 -> immersive_portals:surface_type
+
+[02:04:06] [Render thread/INFO]: Received Dimension Int Id Sync
+[02:04:06] [Render thread/INFO]: 
+minecraft:the_nether -> -1
+minecraft:overworld -> 0
+minecraft:the_end -> 1
+immersive_portals:alternate3 -> 4
+immersive_portals:alternate5 -> 6
+immersive_portals:alternate4 -> 5
+immersive_portals:alternate1 -> 2
+immersive_portals:alternate2 -> 3
+[02:04:06] [Render thread/INFO]: New minimap session initialized!
+[02:04:07] [Render thread/INFO]: WorldRenderer reloaded minecraft:overworld
+[02:04:07] [Render thread/INFO]: Started 6 worker threads
+[02:04:07] [Render thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[02:04:07] [Render thread/INFO]: Joined dedicated server, asking for config.
+[02:04:07] [Netty Epoll Client IO #1/INFO]: Registered 23 enchanting_stats.
+[02:04:07] [Render thread/INFO]: Stopping worker threads
+[02:04:07] [Render thread/INFO]: Started 6 worker threads
+[02:04:07] [Netty Epoll Client IO #1/INFO]: Received dedicated server config.
+[02:04:07] [Render thread/INFO]: No Iris!
+[02:04:07] [Render thread/INFO]: Reloading entity icon resources...
+[02:04:07] [Render thread/INFO]: Done!
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/beef
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/beetroot_soup
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/crimson_sign
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/chicken_soup
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/birch_log
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/oak_sign
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/acacia_sign
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/dark_oak_log
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/crimson_door
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/jungle_sign
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/stuffed_pumpkin_block
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/warped_stem
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/spruce_trapdoor
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/bricks
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/crimson_hyphae
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/mushroom_stew
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/birch_wood
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/vegetable_noodles
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/oak_door
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/jungle_log
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/ratatouille
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/tomato_sauce
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/oak_wood
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/melon
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/squid_ink_pasta
+[02:04:07] [Render thread/WARN]: Unknown recipe category: apotheosis:fletching/apotheosis:fletching/broadhead_arrow
+[02:04:07] [Render thread/WARN]: Unknown recipe category: apotheosis:fletching/apotheosis:fletching/obsidian_arrow
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/cabbage_rolls
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/sweet_berry_cheesecake
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/leather_chestplate
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/red_mushroom_colony
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/hot_cocoa
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/dark_oak_sign
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/baked_cod_stew
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/cake
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/fried_rice
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/clay
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/crimson_stem
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/warped_sign
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/pasta_with_meatballs
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/warped_door
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/spruce_log
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/chocolate_pie
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/nether_bricks
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/birch_trapdoor
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/chicken
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/dark_oak_wood
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/dark_oak_trapdoor
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/birch_sign
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/dumplings
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/acacia_trapdoor
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/mutton
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/oak_trapdoor
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/warped_hyphae
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/pasta_with_mutton_chop
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/leather_boots
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/apple_pie
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/brown_mushroom_colony
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/beef_stew
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/cooked_mutton
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/spruce_wood
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/smoked_ham
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/cooked_chicken
+[02:04:07] [Render thread/WARN]: Unknown recipe category: apotheosis:fletching/apotheosis:fletching/iron_mining_arrow
+[02:04:07] [Render thread/WARN]: Unknown recipe category: apotheosis:fletching/apotheosis:fletching/diamond_mining_arrow
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/rice_panicle
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/jungle_wood
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/acacia_log
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/oak_log
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/warped_trapdoor
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/spruce_sign
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/leather_helmet
+[02:04:07] [Render thread/WARN]: Unknown recipe category: apotheosis:fletching/apotheosis:fletching/arrow
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/salmon
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/crimson_trapdoor
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/cooked_rice
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/cod
+[02:04:07] [Render thread/WARN]: Unknown recipe category: apotheosis:fletching/apotheosis:fletching/explosive_arrow
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/porkchop
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/vegetable_soup
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/spruce_door
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/saddle
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/birch_door
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/acacia_door
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/pumpkin
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/cooked_cod
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/dark_oak_door
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/jungle_trapdoor
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/pumpkin_soup
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/noodle_soup
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/cabbage
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/jungle_door
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/ham
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/rabbit_stew
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/cooked_salmon
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/leather_leggings
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/acacia_wood
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/dog_food
+[02:04:07] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/fish_stew
+[02:04:07] [Render thread/WARN]: Unknown recipe category: apotheosis:fletching/apotheosis:fletching/spectral_arrow
+[02:04:08] [Render thread/INFO]: Minimap updated server level id: -295272591 for world ResourceKey[minecraft:dimension / minecraft:overworld]
+[02:04:08] [Render thread/INFO]: Loaded 61 advancements
+[02:04:08] [Render thread/INFO]: WorldRenderer reloaded minecraft:overworld
+[02:04:08] [Render thread/INFO]: Stopping worker threads
+[02:04:08] [Render thread/INFO]: Started 6 worker threads
+[02:04:08] [Render thread/INFO]: [CHAT] [Immersive Portals] You are using Sodium with Immersive Portals. The compatibility is not perfect. Rendering issues may occur. Disable warning
+[02:04:08] [Render thread/INFO]: [CHAT] [Immersive Portals] You are using Iris with Immersive Portals. The compatibility is not perfect. Rendering issues may occur. Disable warning
+[02:04:13] [Render thread/INFO]: [CHAT] SuperToasted joined the game
+[02:04:43] [Render thread/INFO]: [CHAT] [Server: Made Endoman123 a server operator]
+[02:04:53] [Render thread/INFO]: [CHAT] Set own game mode to Creative Mode
+[02:04:59] [Render thread/INFO]: Loaded 69 advancements
+[02:05:11] [Render thread/INFO]: [CHAT] [@: Teleported SuperToasted to 0.500000, 254.000000, 257.403600]
+[02:05:21] [Render thread/INFO]: [CHAT] [SuperToasted: Teleported SuperToasted to Endoman123]
+[02:05:36] [Render thread/INFO]: [CHAT] [@: Teleported SuperToasted to 0.500000, 254.000000, 0.500000]
+[02:05:41] [Render thread/INFO]: [CHAT] [SuperToasted: Teleported SuperToasted to Endoman123]
+[02:05:43] [Render thread/INFO]: [CHAT] [@: Teleported SuperToasted to 0.500000, 254.000000, 0.500000]
+[02:05:52] [Render thread/INFO]: [CHAT] Removed every effect from Endoman123
+[02:05:55] [Render thread/INFO]: [CHAT] [SuperToasted: Teleported SuperToasted to Endoman123]
+[02:06:06] [Render thread/INFO]: [CHAT] Removed every effect from Endoman123
+[02:06:20] [Render thread/INFO]: [CHAT] [@: Teleported SuperToasted to 0.500000, 254.000000, 254.023953]
+[02:06:23] [Render thread/INFO]: [CHAT] [@: Changed the block at -6, 120, -2]
+[02:06:23] [Render thread/INFO]: [CHAT] [@: Teleported SuperToasted to -4.500000, 120.000000, 11.500000]
+[02:06:31] [Render thread/INFO]: [CHAT] Removed every effect from Endoman123
+[02:08:37] [Render thread/INFO]: [CHAT] <SuperToasted> https://www.reddit.com/r/Minecraft/comments/8qfpk1/a_machine_for_pregenerating_chunks_in_vanilla/
+[02:09:42] [Render thread/INFO]: [CHAT] [@: Teleported SuperToasted to 255.369833, 254.000000, 2.291188]
+[02:10:13] [Render thread/INFO]: [CHAT] SuperToasted has reached the goal [Sky's the Limit]
+[02:10:37] [Render thread/INFO]: [CHAT] [@: Changed the block at -6, 120, -2]
+[02:10:37] [Render thread/INFO]: [CHAT] [@: Teleported SuperToasted to 0.500000, 254.000000, 0.500000]
+[02:10:50] [Render thread/INFO]: [CHAT] [@: Teleported SuperToasted to 256.605065, 254.000000, -1.214921]
+[02:11:03] [Render thread/INFO]: [CHAT] [@: Teleported SuperToasted to 549.813762, 254.000000, -24.136604]
+[02:11:26] [Render thread/INFO]: [CHAT] [SuperToasted: Teleported SuperToasted to Endoman123]
+[02:11:52] [Render thread/INFO]: [CHAT] [@: Teleported SuperToasted to 257.948566, 254.000000, 1.970663]
+[02:12:07] [Render thread/INFO]: [CHAT] [@: Teleported SuperToasted to 0.500000, 254.000000, 257.970663]
+[02:12:59] [Render thread/INFO]: [CHAT] [@: Teleported SuperToasted to 256.500000, 254.000000, 257.970663]
+[02:13:14] [Render thread/INFO]: [CHAT] [@: Teleported SuperToasted to 512.500000, 254.000000, 257.970663]
+[02:13:54] [Render thread/INFO]: [CHAT] [@: Teleported SuperToasted to 768.500000, 254.000000, 257.970663]
+[02:15:18] [Render thread/INFO]: Loaded 70 advancements
+[02:15:20] [Render thread/INFO]: [CHAT] [@: Teleported SuperToasted to 1024.500000, 254.000000, 257.970663]
+[02:15:30] [Render thread/INFO]: [CHAT] [@: Teleported SuperToasted to 1280.500000, 254.000000, 257.970663]
+[02:16:35] [Render thread/INFO]: [CHAT] [@: Teleported SuperToasted to 1536.500000, 254.000000, 257.970663]
+[02:17:24] [Render thread/INFO]: [CHAT] [@: Teleported SuperToasted to 1792.500000, 254.000000, 257.970663]
+[02:17:32] [Netty Epoll Client IO #1/INFO]: Left dedicated server, restoring config.
+[02:17:32] [Render thread/INFO]: Minimap session finalized.
+[02:17:32] [Render thread/INFO]: Stopping worker threads
+[02:17:32] [Render thread/WARN]: Adding minecraft:chipped_anvil to saved/remote registry.
+[02:17:32] [Render thread/WARN]: Adding minecraft:anvil to saved/remote registry.
+[02:17:32] [Render thread/WARN]: Adding minecraft:damaged_anvil to saved/remote registry.
+[02:17:32] [Render thread/WARN]: Adding minecraft:sharpness to saved/remote registry.
+[02:17:32] [Render thread/WARN]: Adding minecraft:protection to saved/remote registry.
+[02:17:32] [Render thread/WARN]: Adding minecraft:smite to saved/remote registry.
+[02:17:32] [Render thread/WARN]: Adding minecraft:projectile_protection to saved/remote registry.
+[02:17:32] [Render thread/WARN]: Adding minecraft:fire_protection to saved/remote registry.
+[02:17:32] [Render thread/WARN]: Adding minecraft:feather_falling to saved/remote registry.
+[02:17:32] [Render thread/WARN]: Adding minecraft:blast_protection to saved/remote registry.
+[02:17:32] [Render thread/WARN]: Adding minecraft:bane_of_arthropods to saved/remote registry.
+[02:17:36] [Render thread/INFO]: "/game/GeneralLibrary/polymc/instances/vanilla-/.minecraft/config/byg/end-biomes.json5" was read.
+[02:17:36] [Render thread/INFO]: "/game/GeneralLibrary/polymc/instances/vanilla-/.minecraft/config/byg/nether-biomes.json5" was read.
+[02:17:36] [Render thread/INFO]: "/game/GeneralLibrary/polymc/instances/vanilla-/.minecraft/config/byg/nether-biomes.json5" was read.
+[02:17:36] [Render thread/WARN]: Config "/game/GeneralLibrary/polymc/instances/vanilla-/.minecraft/config/byg/nether-biomes.json5" warned:
+The following biome entries were ignored due to not being in this world's biome registry:
+1. "incendium:ash_barrens",
+2. "incendium:infernal_dunes",
+3. "incendium:inverted_forest",
+4. "incendium:quartz_flats",
+5. "incendium:toxic_heap",
+6. "incendium:volcanic_deltas",
+7. "incendium:weeping_valley",
+8. "incendium:withered_forest"
+[02:17:36] [Render thread/INFO]: "/game/GeneralLibrary/polymc/instances/vanilla-/.minecraft/config/byg/end-biomes.json5" was read.
+[02:17:36] [Render thread/INFO]: 7586 biome parameter points were mapped for BYG region: byg:region_0
+[02:17:36] [Render thread/INFO]: 7586 biome parameter points were mapped for BYG region: byg:region_1
+[02:17:36] [Render thread/INFO]: 7586 biome parameter points were mapped for BYG region: byg:region_2
+[02:17:36] [Render thread/INFO]: 7586 biome parameter points were mapped for BYG region: byg:region_3
+[02:17:43] [Render thread/INFO]: "/game/GeneralLibrary/polymc/instances/vanilla-/.minecraft/config/byg/end-biomes.json5" was read.
+[02:17:43] [Render thread/INFO]: "/game/GeneralLibrary/polymc/instances/vanilla-/.minecraft/config/byg/nether-biomes.json5" was read.
+[02:17:43] [Render thread/INFO]: "/game/GeneralLibrary/polymc/instances/vanilla-/.minecraft/config/byg/nether-biomes.json5" was read.
+[02:17:43] [Render thread/WARN]: Config "/game/GeneralLibrary/polymc/instances/vanilla-/.minecraft/config/byg/nether-biomes.json5" warned:
+The following biome entries were ignored due to not being in this world's biome registry:
+1. "incendium:ash_barrens",
+2. "incendium:infernal_dunes",
+3. "incendium:inverted_forest",
+4. "incendium:quartz_flats",
+5. "incendium:toxic_heap",
+6. "incendium:volcanic_deltas",
+7. "incendium:weeping_valley",
+8. "incendium:withered_forest"
+[02:17:43] [Render thread/INFO]: "/game/GeneralLibrary/polymc/instances/vanilla-/.minecraft/config/byg/end-biomes.json5" was read.
+[02:17:55] [Render thread/INFO]: "/game/GeneralLibrary/polymc/instances/vanilla-/.minecraft/config/byg/end-biomes.json5" was read.
+[02:17:55] [Render thread/INFO]: "/game/GeneralLibrary/polymc/instances/vanilla-/.minecraft/config/byg/nether-biomes.json5" was read.
+[02:17:55] [Render thread/WARN]: Config "/game/GeneralLibrary/polymc/instances/vanilla-/.minecraft/config/byg/nether-biomes.json5" warned:
+The following biome entries were ignored due to not being in this world's biome registry:
+1. "incendium:ash_barrens",
+2. "incendium:infernal_dunes",
+3. "incendium:inverted_forest",
+4. "incendium:quartz_flats",
+5. "incendium:toxic_heap",
+6. "incendium:volcanic_deltas",
+7. "incendium:weeping_valley",
+8. "incendium:withered_forest"
+[02:17:55] [Render thread/INFO]: 7586 biome parameter points were mapped for BYG region: byg:region_0
+[02:17:55] [Render thread/INFO]: 7586 biome parameter points were mapped for BYG region: byg:region_1
+[02:17:55] [Render thread/INFO]: 7586 biome parameter points were mapped for BYG region: byg:region_2
+[02:17:55] [Render thread/INFO]: 7586 biome parameter points were mapped for BYG region: byg:region_3
+[02:17:55] [Render thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[02:17:55] [Render thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[02:17:55] [Render thread/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[02:17:55] [Render thread/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[02:17:55] [Render thread/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[02:17:55] [Render thread/WARN]: Ambiguity between arguments [scale, get, scale_type] and [scale, get, entity] with inputs: [base]
+[02:17:55] [Render thread/WARN]: Ambiguity between arguments [scale, get, scale_type, entity] and [scale, get, scale_type, scalingFactor] with inputs: [0123]
+[02:17:55] [Render thread/WARN]: Ambiguity between arguments [scale, get, scale_type, scalingFactor] and [scale, get, scale_type, entity] with inputs: [0, -1, -.5, 1.2, .5, -1234.56]
+[02:17:55] [Render thread/WARN]: Ambiguity between arguments [scale, get, scalingFactor] and [scale, get, entity] with inputs: [0, -1, -.5, 1.2, .5, -1234.56]
+[02:17:55] [Render thread/WARN]: Ambiguity between arguments [scale, get, entity] and [scale, get, scalingFactor] with inputs: [0123]
+[02:17:55] [Render thread/WARN]: Ambiguity between arguments [scale, compute, scale_type, entity] and [scale, compute, scale_type, scalingFactor] with inputs: [0123]
+[02:17:55] [Render thread/WARN]: Ambiguity between arguments [scale, compute, scale_type, scalingFactor] and [scale, compute, scale_type, entity] with inputs: [0, -1, -.5, 1.2, .5, -1234.56]
+[02:17:55] [Render thread/WARN]: Ambiguity between arguments [scale, reset, scale_type] and [scale, reset, targets] with inputs: [base]
+[02:17:55] [Render thread/WARN]: Ambiguity between arguments [scale, delay, get, scale_type] and [scale, delay, get, entity] with inputs: [base]
+[02:17:55] [Render thread/WARN]: Ambiguity between arguments [scale, delay, reset, scale_type] and [scale, delay, reset, targets] with inputs: [base]
+[02:17:55] [Render thread/WARN]: Ambiguity between arguments [scale, persist, reset, scale_type] and [scale, persist, reset, targets] with inputs: [base]
+[02:17:55] [Render thread/ERROR]: IngredientDeserializer with ID not found: [farmersdelight:tool] this can be ignored unless issues occur.
+[02:17:55] [Render thread/INFO]: Loaded 11 recipes
+[02:17:55] [Render thread/ERROR]: Couldn't parse loot table apotheosis:book
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'apotheosis:book'
+	at net.minecraft.class_3518.method_17995(class_3518.java:130) ~[client-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_3518.method_15256(class_3518.java:130) ~[client-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15288(class_3518.java:138) ~[client-intermediary.jar:?]
+	at net.minecraft.class_77$class_78.method_413(class_77.java:55) ~[client-intermediary.jar:?]
+	at net.minecraft.class_77$class_78.method_443(class_77.java:40) ~[client-intermediary.jar:?]
+	at net.minecraft.class_85$class_90.method_441(class_85.java:151) ~[client-intermediary.jar:?]
+	at net.minecraft.class_85$class_90.method_424(class_85.java:129) ~[client-intermediary.jar:?]
+	at net.minecraft.class_79$class_5337.method_29319(class_79.java:86) ~[client-intermediary.jar:?]
+	at net.minecraft.class_79$class_5337.method_517(class_79.java:74) ~[client-intermediary.jar:?]
+	at net.minecraft.class_5330$class_5333.deserialize(class_5330.java:102) ~[client-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.9.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.9.jar:?]
+	at net.minecraft.class_3518.method_15291(class_3518.java:448) ~[client-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15272(class_3518.java:456) ~[client-intermediary.jar:?]
+	at net.minecraft.class_55$class_57.method_358(class_55.java:173) ~[client-intermediary.jar:?]
+	at net.minecraft.class_55$class_57.deserialize(class_55.java:169) ~[client-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.9.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.9.jar:?]
+	at net.minecraft.class_3518.method_15291(class_3518.java:448) ~[client-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15283(class_3518.java:466) ~[client-intermediary.jar:?]
+	at net.minecraft.class_52$class_54.method_340(class_52.java:213) ~[client-intermediary.jar:?]
+	at net.minecraft.class_52$class_54.deserialize(class_52.java:209) ~[client-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1006) ~[gson-2.8.9.jar:?]
+	at net.minecraft.class_60.method_20711(class_60.java:44) ~[client-intermediary.jar:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.class_60.method_20712(class_60.java:42) ~[client-intermediary.jar:?]
+	at net.minecraft.class_60.method_18788(class_60.java:17) ~[client-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[client-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[client-intermediary.jar:?]
+	at net.minecraft.class_1255.method_18859(class_1255.java:157) ~[client-intermediary.jar:?]
+	at net.minecraft.class_4093.method_18859(class_4093.java:23) ~[client-intermediary.jar:?]
+	at net.minecraft.class_1255.method_16075(class_1255.java:131) ~[client-intermediary.jar:?]
+	at net.minecraft.class_1255.method_18857(class_1255.java:140) ~[client-intermediary.jar:?]
+	at net.minecraft.class_310.method_40183(class_310.java:2123) ~[client-intermediary.jar:?]
+	at net.minecraft.class_310.method_29610(class_310.java:1972) ~[client-intermediary.jar:?]
+	at net.minecraft.class_310.method_29607(class_310.java:1941) ~[client-intermediary.jar:?]
+	at net.minecraft.class_525.redirect$cae000$redirectOnCreateLevel(class_525.java:1305) ~[client-intermediary.jar:?]
+	at net.minecraft.class_525.method_2736(class_525.java:286) ~[client-intermediary.jar:?]
+	at net.minecraft.class_525.method_19922(class_525.java:230) ~[client-intermediary.jar:?]
+	at net.minecraft.class_4185.method_25306(class_4185.java:40) ~[client-intermediary.jar:?]
+	at net.minecraft.class_4264.method_25348(class_4264.java:16) ~[client-intermediary.jar:?]
+	at net.minecraft.class_339.method_25402(class_339.java:121) ~[client-intermediary.jar:?]
+	at net.minecraft.class_4069.method_25402(class_4069.java:27) ~[client-intermediary.jar:?]
+	at net.minecraft.class_312.method_1611(class_312.java:94) ~[client-intermediary.jar:?]
+	at net.minecraft.class_437.method_25412(class_437.java:492) ~[client-intermediary.jar:?]
+	at net.minecraft.class_312.method_1601(class_312.java:94) ~[client-intermediary.jar:?]
+	at net.minecraft.class_312.method_22686(class_312.java:165) ~[client-intermediary.jar:?]
+	at net.minecraft.class_1255.execute(class_1255.java:103) ~[client-intermediary.jar:?]
+	at net.minecraft.class_312.method_22684(class_312.java:165) ~[client-intermediary.jar:?]
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:36) [lwjgl-glfw-3.2.2.jar:?]
+	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.2.2.jar:?]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3174) [lwjgl-glfw-3.2.2.jar:?]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:222) [client-intermediary.jar:?]
+	at net.minecraft.class_310.method_1523(class_310.java:1150) [client-intermediary.jar:?]
+	at net.minecraft.class_310.method_1514(class_310.java:737) [client-intermediary.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:236) [client-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:460) [fabric-loader-0.14.6.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.6.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.6.jar:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
+	at org.multimc.impl.OneSixLauncher.invokeMain(OneSixLauncher.java:104) [NewLaunch.jar:?]
+	at org.multimc.impl.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:175) [NewLaunch.jar:?]
+	at org.multimc.impl.OneSixLauncher.launch(OneSixLauncher.java:185) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.listen(EntryPoint.java:127) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.main(EntryPoint.java:57) [NewLaunch.jar:?]
+[02:17:56] [Render thread/INFO]: Registered 0 additional loot tables.
+[02:17:56] [Render thread/ERROR]: Parsing error loading custom advancement twm:adventure/kill_mob_near_sculk_catalyst: Invalid criterion trigger: twm:kill_mob_near_sculk_catalyst
+[02:17:56] [Render thread/INFO]: Loaded 1379 advancements
+[02:17:56] [Render thread/INFO]: Registered 23 additional recipes.
+[02:17:56] [Render thread/INFO]: Registered 23 enchanting_stats.
+[02:17:56] [Render thread/INFO]: Registered 26 wanderer_trades.
+[02:17:56] [Render thread/ERROR]: Enchantment apotheosis:life_mending has min/max power 205/200 at level 4, making this level unobtainable.
+[02:17:56] [Render thread/ERROR]: Enchantment apotheosis:knowledge has min/max power 235/200 at level 4, making this level unobtainable.
+[02:17:56] [Render thread/ERROR]: Enchantment apotheosis:rebounding has min/max power 202/200 at level 6, making this level unobtainable.
+[02:17:56] [Render thread/ERROR]: Enchantment incantationem:decay has min/max power 220/200 at level 5, making this level unobtainable.
+[02:17:56] [Render thread/ERROR]: Enchantment incantationem:venomous has min/max power 205/200 at level 6, making this level unobtainable.
+[02:17:56] [Render thread/INFO]: 7586 biome parameter points were mapped for BYG region: byg:region_0
+[02:17:56] [Render thread/INFO]: 7586 biome parameter points were mapped for BYG region: byg:region_1
+[02:17:56] [Render thread/INFO]: 7586 biome parameter points were mapped for BYG region: byg:region_2
+[02:17:56] [Render thread/INFO]: 7586 biome parameter points were mapped for BYG region: byg:region_3
+[02:17:56] [Render thread/INFO]: 7586 biome parameter points were mapped for BYG region: byg:region_0
+[02:17:56] [Render thread/INFO]: 7586 biome parameter points were mapped for BYG region: byg:region_1
+[02:17:56] [Render thread/INFO]: 7586 biome parameter points were mapped for BYG region: byg:region_2
+[02:17:56] [Render thread/INFO]: 7586 biome parameter points were mapped for BYG region: byg:region_3
+[02:17:56] [Render thread/INFO]: 7586 biome parameter points were mapped for BYG region: byg:region_0
+[02:17:56] [Render thread/INFO]: 7586 biome parameter points were mapped for BYG region: byg:region_1
+[02:17:56] [Render thread/INFO]: 7586 biome parameter points were mapped for BYG region: byg:region_2
+[02:17:56] [Render thread/INFO]: 7586 biome parameter points were mapped for BYG region: byg:region_3
+[02:17:56] [Render thread/INFO]: 7586 biome parameter points were mapped for BYG region: byg:region_0
+[02:17:56] [Render thread/INFO]: 7586 biome parameter points were mapped for BYG region: byg:region_1
+[02:17:56] [Render thread/INFO]: 7586 biome parameter points were mapped for BYG region: byg:region_2
+[02:17:56] [Render thread/INFO]: 7586 biome parameter points were mapped for BYG region: byg:region_3
+[02:17:57] [Render thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[02:17:57] [Render thread/INFO]: "/game/GeneralLibrary/polymc/instances/vanilla-/.minecraft/config/byg/nether-biomes.json5" was read.
+[02:17:57] [Render thread/INFO]: "/game/GeneralLibrary/polymc/instances/vanilla-/.minecraft/config/byg/end-biomes.json5" was read.
+[02:17:57] [Render thread/INFO]: Applied 1997 biome modifications to 237 of 237 new biomes in 59.17 ms
+[02:17:57] [Server thread/INFO]: Successfully created the config file in '/game/GeneralLibrary/polymc/instances/vanilla-/.minecraft/saves/New World (6)/./serverconfig/betteranimalsplus-server.json5'
+[02:17:57] [Server thread/INFO]: Successfully loaded '/game/GeneralLibrary/polymc/instances/vanilla-/.minecraft/config/betteranimalsplus-client.json5'
+[02:17:57] [Server thread/INFO]: Starting integrated minecraft server version 1.18.2
+[02:17:57] [Server thread/INFO]: Generating keypair
+[02:18:13] [Server thread/INFO]: "/game/GeneralLibrary/polymc/instances/vanilla-/.minecraft/config/byg/surface_rules/overworld_surface_rules.json5" was read.
+[02:18:13] [Server thread/INFO]: "/game/GeneralLibrary/polymc/instances/vanilla-/.minecraft/config/byg/surface_rules/nether_surface_rules.json5" was read.
+[02:18:13] [Server thread/INFO]: "/game/GeneralLibrary/polymc/instances/vanilla-/.minecraft/config/byg/surface_rules/end_surface_rules.json5" was read.
+[02:18:13] [Server thread/INFO]: Loading dimension "minecraft:the_nether" with biome source: "byg:nether".
+[02:18:13] [Server thread/INFO]: "/game/GeneralLibrary/polymc/instances/vanilla-/.minecraft/config/byg/surface_rules/overworld_surface_rules.json5" was read.
+[02:18:13] [Server thread/INFO]: "/game/GeneralLibrary/polymc/instances/vanilla-/.minecraft/config/byg/surface_rules/nether_surface_rules.json5" was read.
+[02:18:13] [Server thread/INFO]: "/game/GeneralLibrary/polymc/instances/vanilla-/.minecraft/config/byg/surface_rules/end_surface_rules.json5" was read.
+[02:18:13] [Server thread/INFO]: Loading dimension "minecraft:the_end" with biome source: "byg:end".
+[02:18:13] [Server thread/INFO]: Global portal storage initialized minecraft:overworld
+[02:18:13] [Server thread/INFO]: Bedrock Replacement minecraft:overworld null
+[02:18:13] [Server thread/INFO]: Global portal storage initialized minecraft:the_end
+[02:18:13] [Server thread/INFO]: Bedrock Replacement minecraft:the_end null
+[02:18:13] [Server thread/INFO]: Global portal storage initialized immersive_portals:alternate1
+[02:18:13] [Server thread/INFO]: Bedrock Replacement immersive_portals:alternate1 null
+[02:18:13] [Server thread/INFO]: Global portal storage initialized immersive_portals:alternate5
+[02:18:13] [Server thread/INFO]: Bedrock Replacement immersive_portals:alternate5 null
+[02:18:13] [Server thread/INFO]: Global portal storage initialized minecraft:the_nether
+[02:18:13] [Server thread/INFO]: Bedrock Replacement minecraft:the_nether null
+[02:18:13] [Server thread/INFO]: Global portal storage initialized immersive_portals:alternate2
+[02:18:13] [Server thread/INFO]: Bedrock Replacement immersive_portals:alternate2 null
+[02:18:13] [Server thread/INFO]: Global portal storage initialized immersive_portals:alternate4
+[02:18:13] [Server thread/INFO]: Bedrock Replacement immersive_portals:alternate4 null
+[02:18:13] [Server thread/INFO]: Global portal storage initialized immersive_portals:alternate3
+[02:18:13] [Server thread/INFO]: Bedrock Replacement immersive_portals:alternate3 null
+[02:18:13] [Server thread/INFO]: Immersive Portals' Dimension Id Record File Does Not Exist
+[02:18:13] [Server thread/INFO]: Immersive Portals' dimension id record is missing
+[02:18:13] [Server thread/INFO]: Dimension Id Record is Missing
+[02:18:13] [Server thread/INFO]: Start Completing Dimension Id Record
+[02:18:13] [Server thread/INFO]: Before:
+
+[02:18:13] [Server thread/INFO]: Server Loaded Dimensions:
+immersive_portals:alternate1
+immersive_portals:alternate2
+immersive_portals:alternate3
+immersive_portals:alternate4
+immersive_portals:alternate5
+minecraft:overworld
+minecraft:the_end
+minecraft:the_nether
+
+[02:18:13] [Server thread/INFO]: After:
+minecraft:overworld -> 0
+minecraft:the_nether -> -1
+minecraft:the_end -> 1
+immersive_portals:alternate1 -> 2
+immersive_portals:alternate2 -> 3
+immersive_portals:alternate3 -> 4
+immersive_portals:alternate4 -> 5
+immersive_portals:alternate5 -> 6
+[02:18:13] [Server thread/INFO]: Dimension Id Info Saved to File
+[02:18:13] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[02:18:14] [Render thread/INFO]: Preparing spawn area: 0%
+[02:18:14] [Render thread/INFO]: Preparing spawn area: 0%
+[02:18:14] [Render thread/INFO]: Preparing spawn area: 0%
+[02:18:15] [Render thread/INFO]: Preparing spawn area: 0%
+[02:18:15] [Render thread/INFO]: Preparing spawn area: 1%
+[02:18:16] [Render thread/INFO]: Preparing spawn area: 2%
+[02:18:16] [Render thread/INFO]: Preparing spawn area: 4%
+[02:18:17] [Render thread/INFO]: Preparing spawn area: 5%
+[02:18:17] [Render thread/INFO]: Preparing spawn area: 8%
+[02:18:18] [Render thread/INFO]: Preparing spawn area: 10%
+[02:18:18] [Render thread/INFO]: Preparing spawn area: 13%
+[02:18:19] [Render thread/INFO]: Preparing spawn area: 15%
+[02:18:19] [Render thread/INFO]: Preparing spawn area: 17%
+[02:18:20] [Render thread/INFO]: Preparing spawn area: 18%
+[02:18:20] [Render thread/INFO]: Preparing spawn area: 22%
+[02:18:21] [Render thread/INFO]: Preparing spawn area: 24%
+[02:18:21] [Render thread/INFO]: Preparing spawn area: 26%
+[02:18:22] [Render thread/INFO]: Preparing spawn area: 30%
+[02:18:22] [Render thread/INFO]: Preparing spawn area: 32%
+[02:18:23] [Render thread/INFO]: Preparing spawn area: 35%
+[02:18:23] [Render thread/INFO]: Preparing spawn area: 39%
+[02:18:24] [Render thread/INFO]: Preparing spawn area: 42%
+[02:18:24] [Render thread/INFO]: Preparing spawn area: 44%
+[02:18:25] [Render thread/INFO]: Preparing spawn area: 45%
+[02:18:25] [Render thread/INFO]: Preparing spawn area: 51%
+[02:18:26] [Render thread/INFO]: Preparing spawn area: 54%
+[02:18:26] [Render thread/INFO]: Preparing spawn area: 56%
+[02:18:27] [Render thread/INFO]: Preparing spawn area: 58%
+[02:18:27] [Render thread/INFO]: Preparing spawn area: 60%
+[02:18:28] [Render thread/INFO]: Preparing spawn area: 62%
+[02:18:28] [Render thread/INFO]: Preparing spawn area: 68%
+[02:18:29] [Render thread/INFO]: Preparing spawn area: 70%
+[02:18:29] [Render thread/INFO]: Preparing spawn area: 73%
+[02:18:30] [Render thread/INFO]: Preparing spawn area: 77%
+[02:18:30] [Render thread/INFO]: Preparing spawn area: 81%
+[02:18:32] [Render thread/INFO]: Preparing spawn area: 82%
+[02:18:32] [Render thread/INFO]: Preparing spawn area: 82%
+[02:18:32] [Render thread/INFO]: Preparing spawn area: 82%
+[02:18:32] [Render thread/INFO]: Preparing spawn area: 82%
+[02:18:33] [Render thread/INFO]: Preparing spawn area: 83%
+[02:18:33] [Render thread/INFO]: Preparing spawn area: 85%
+[02:18:34] [Render thread/INFO]: Preparing spawn area: 89%
+[02:18:34] [Render thread/INFO]: Preparing spawn area: 93%
+[02:18:35] [Render thread/INFO]: Preparing spawn area: 98%
+[02:18:35] [Server thread/INFO]: Loading custom portal generation
+[02:18:35] [Render thread/INFO]: Time elapsed: 21833 ms
+[02:18:35] [Server thread/INFO]: Server performance level: good
+[02:18:35] [Server thread/INFO]: Changing view distance to 12, from 10
+[02:18:35] [Server thread/INFO]: Changing simulation distance to 12, from 0
+[02:18:35] [Netty Local Client IO #0/INFO]: Successfully loaded '/game/GeneralLibrary/polymc/instances/vanilla-/.minecraft/config/betteranimalsplus-client.json5'
+[02:18:35] [Server thread/INFO]: Endoman123[local:E:455132eb] logged in with entity id 1689 at (32.5, 64.0, -17.5)
+[02:18:35] [Netty Local Client IO #0/INFO]: Registered 23 enchanting_stats.
+[02:18:35] [Render thread/INFO]: Received Dimension Type Sync
+[02:18:35] [Render thread/INFO]: 
+minecraft:the_end -> minecraft:the_end
+immersive_portals:alternate1 -> immersive_portals:surface_type
+immersive_portals:alternate5 -> immersive_portals:surface_type
+minecraft:the_nether -> minecraft:the_nether
+minecraft:overworld -> minecraft:overworld
+immersive_portals:alternate2 -> immersive_portals:surface_type
+immersive_portals:alternate4 -> immersive_portals:surface_type
+immersive_portals:alternate3 -> immersive_portals:surface_type
+
+[02:18:35] [Render thread/INFO]: Received Dimension Int Id Sync
+[02:18:35] [Render thread/INFO]: 
+minecraft:the_nether -> -1
+minecraft:overworld -> 0
+minecraft:the_end -> 1
+immersive_portals:alternate3 -> 4
+immersive_portals:alternate5 -> 6
+immersive_portals:alternate4 -> 5
+immersive_portals:alternate1 -> 2
+immersive_portals:alternate2 -> 3
+[02:18:35] [Render thread/INFO]: New minimap session initialized!
+[02:18:35] [Server thread/INFO]: Endoman123 joined the game
+[02:18:35] [Render thread/INFO]: WorldRenderer reloaded minecraft:overworld
+[02:18:35] [Render thread/INFO]: Started 6 worker threads
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/pasta_with_meatballs
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/oak_trapdoor
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/brown_mushroom_colony
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/crimson_trapdoor
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/bricks
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/vegetable_soup
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/dark_oak_trapdoor
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/beef_stew
+[02:18:35] [Render thread/WARN]: Unknown recipe category: apotheosis:fletching/apotheosis:fletching/obsidian_arrow
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/crimson_door
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/beetroot_soup
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/dark_oak_door
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/jungle_sign
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/fish_stew
+[02:18:35] [Render thread/WARN]: Unknown recipe category: apotheosis:fletching/apotheosis:fletching/diamond_mining_arrow
+[02:18:35] [Render thread/WARN]: Unknown recipe category: apotheosis:fletching/apotheosis:fletching/arrow
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/oak_wood
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/spruce_door
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/cooked_chicken
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/tomato_sauce
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/jungle_door
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/chicken
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/leather_leggings
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/crimson_sign
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/oak_log
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/jungle_trapdoor
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/mushroom_stew
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/sweet_berry_cheesecake
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/cake
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/clay
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/fried_rice
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/jungle_wood
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/baked_cod_stew
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/cooked_mutton
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/acacia_trapdoor
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/acacia_sign
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/noodle_soup
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/warped_stem
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/leather_helmet
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/birch_log
+[02:18:35] [Render thread/WARN]: Unknown recipe category: apotheosis:fletching/apotheosis:fletching/spectral_arrow
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/cabbage_rolls
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/hot_cocoa
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/dumplings
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/crimson_stem
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/porkchop
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/warped_hyphae
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/smoked_ham
+[02:18:35] [Render thread/WARN]: Unknown recipe category: apotheosis:fletching/apotheosis:fletching/broadhead_arrow
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/mutton
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/salmon
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/leather_boots
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/stuffed_pumpkin_block
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/pasta_with_mutton_chop
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/birch_door
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/saddle
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/acacia_log
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/cooked_rice
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/dog_food
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/squid_ink_pasta
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/dark_oak_wood
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/chocolate_pie
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/cod
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/warped_sign
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/birch_sign
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/spruce_sign
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/rice_panicle
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/beef
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/melon
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/cooked_cod
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/dark_oak_sign
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/jungle_log
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/pumpkin
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/warped_door
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/chicken_soup
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/oak_sign
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/ham
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/acacia_wood
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/vegetable_noodles
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/pumpkin_soup
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/nether_bricks
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/acacia_door
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/warped_trapdoor
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/cooked_salmon
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/birch_trapdoor
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/spruce_log
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/oak_door
+[02:18:35] [Render thread/WARN]: Unknown recipe category: apotheosis:fletching/apotheosis:fletching/iron_mining_arrow
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/birch_wood
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/leather_chestplate
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/rabbit_stew
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/dark_oak_log
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/red_mushroom_colony
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/apple_pie
+[02:18:35] [Render thread/WARN]: Unknown recipe category: apotheosis:fletching/apotheosis:fletching/explosive_arrow
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/cabbage
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/ratatouille
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/spruce_trapdoor
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/crimson_hyphae
+[02:18:35] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/spruce_wood
+[02:18:35] [Render thread/INFO]: Stopping worker threads
+[02:18:35] [Render thread/INFO]: Started 6 worker threads
+[02:18:35] [Render thread/INFO]: WorldRenderer reloaded minecraft:overworld
+[02:18:35] [Render thread/INFO]: Stopping worker threads
+[02:18:35] [Render thread/INFO]: Started 6 worker threads
+[02:18:36] [Render thread/INFO]: Loaded 61 advancements
+[02:18:36] [Render thread/INFO]: [CHAT] Hello, and thank you for downloading Terralith!\n\nWe'd love to see you at the\nStardust Labs Discord!\n\nAnd, if you'd like to use Terralith on\na server, check out our partner,\nBisect Hosting!\n 
+[02:18:45] [Render thread/WARN]: Unable to play empty soundEvent: minecraft:entity.salmon.ambient
+[02:19:07] [Render thread/INFO]: Loaded 69 advancements
+[02:19:10] [Render thread/INFO]: Loaded 70 advancements
+[02:19:23] [Server thread/INFO]: Saving and pausing game...
+[02:19:23] [Server thread/INFO]: Saving chunks for level 'ServerWorld minecraft:overworld New World'/minecraft:overworld
+[02:19:23] [Server thread/INFO]: Saving chunks for level 'ServerWorld minecraft:the_end New World'/minecraft:the_end
+[02:19:23] [Server thread/INFO]: Saving chunks for level 'ServerWorld immersive_portals:alternate1 New World'/immersive_portals:alternate1
+[02:19:23] [Server thread/INFO]: Saving chunks for level 'ServerWorld immersive_portals:alternate5 New World'/immersive_portals:alternate5
+[02:19:23] [Server thread/INFO]: Saving chunks for level 'ServerWorld minecraft:the_nether New World'/minecraft:the_nether
+[02:19:23] [Server thread/INFO]: Saving chunks for level 'ServerWorld immersive_portals:alternate2 New World'/immersive_portals:alternate2
+[02:19:23] [Server thread/INFO]: Saving chunks for level 'ServerWorld immersive_portals:alternate4 New World'/immersive_portals:alternate4
+[02:19:23] [Server thread/INFO]: Saving chunks for level 'ServerWorld immersive_portals:alternate3 New World'/immersive_portals:alternate3
+[02:19:23] [Render thread/INFO]: Minimap session finalized.
+[02:19:23] [Sound engine/ERROR]: Stop: Invalid name parameter.
+[02:19:23] [Server thread/INFO]: Endoman123 lost connection: Disconnected
+[02:19:23] [Server thread/INFO]: Endoman123 left the game
+[02:19:23] [Server thread/INFO]: Chunk Tracking Graph Force Remove Endoman123
+[02:19:23] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[02:19:23] [Server thread/INFO]: Stopping server
+[02:19:23] [Server thread/INFO]: Saving players
+[02:19:23] [Server thread/INFO]: Saving worlds
+[02:19:24] [Server thread/INFO]: Saving chunks for level 'ServerWorld minecraft:overworld New World'/minecraft:overworld
+[02:19:25] [Server thread/INFO]: Saving chunks for level 'ServerWorld minecraft:the_end New World'/minecraft:the_end
+[02:19:25] [Server thread/INFO]: Saving chunks for level 'ServerWorld immersive_portals:alternate1 New World'/immersive_portals:alternate1
+[02:19:25] [Server thread/INFO]: Saving chunks for level 'ServerWorld immersive_portals:alternate5 New World'/immersive_portals:alternate5
+[02:19:25] [Server thread/INFO]: Saving chunks for level 'ServerWorld minecraft:the_nether New World'/minecraft:the_nether
+[02:19:25] [Server thread/INFO]: Saving chunks for level 'ServerWorld immersive_portals:alternate2 New World'/immersive_portals:alternate2
+[02:19:25] [Server thread/INFO]: Saving chunks for level 'ServerWorld immersive_portals:alternate4 New World'/immersive_portals:alternate4
+[02:19:25] [Server thread/INFO]: Saving chunks for level 'ServerWorld immersive_portals:alternate3 New World'/immersive_portals:alternate3
+[02:19:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (New World (6)): All chunks are saved
+[02:19:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[02:19:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (alternate1): All chunks are saved
+[02:19:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (alternate5): All chunks are saved
+[02:19:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02:19:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (alternate2): All chunks are saved
+[02:19:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (alternate4): All chunks are saved
+[02:19:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (alternate3): All chunks are saved
+[02:19:25] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[02:19:25] [Render thread/INFO]: Stopping worker threads
+[02:19:27] [Render thread/INFO]: Connecting to endoman.strangled.net, 25575
+[02:21:33] [Render thread/INFO]: Connecting to endoman.strangled.net, 25575
+[02:21:33] [Netty Epoll Client IO #3/INFO]: Successfully loaded '/game/GeneralLibrary/polymc/instances/vanilla-/.minecraft/config/betteranimalsplus-client.json5'
+[02:21:33] [Render thread/INFO]: Received Dimension Type Sync
+[02:21:33] [Render thread/INFO]: 
+minecraft:the_end -> minecraft:the_end
+immersive_portals:alternate1 -> immersive_portals:surface_type
+immersive_portals:alternate5 -> immersive_portals:surface_type
+minecraft:the_nether -> minecraft:the_nether
+minecraft:overworld -> minecraft:overworld
+immersive_portals:alternate2 -> immersive_portals:surface_type
+immersive_portals:alternate4 -> immersive_portals:surface_type
+immersive_portals:alternate3 -> immersive_portals:surface_type
+
+[02:21:33] [Render thread/INFO]: Received Dimension Int Id Sync
+[02:21:33] [Render thread/INFO]: 
+minecraft:the_nether -> -1
+minecraft:overworld -> 0
+minecraft:the_end -> 1
+immersive_portals:alternate3 -> 4
+immersive_portals:alternate5 -> 6
+immersive_portals:alternate4 -> 5
+immersive_portals:alternate1 -> 2
+immersive_portals:alternate2 -> 3
+[02:21:33] [Render thread/INFO]: New minimap session initialized!
+[02:21:33] [Render thread/INFO]: WorldRenderer reloaded minecraft:overworld
+[02:21:33] [Render thread/INFO]: Started 6 worker threads
+[02:21:33] [Render thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[02:21:33] [Render thread/INFO]: Joined dedicated server, asking for config.
+[02:21:33] [Render thread/INFO]: Stopping worker threads
+[02:21:33] [Render thread/INFO]: Started 6 worker threads
+[02:21:33] [Netty Epoll Client IO #3/INFO]: Registered 23 enchanting_stats.
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/vegetable_noodles
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/acacia_door
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/beef
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/apple_pie
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/jungle_wood
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/cooked_chicken
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/fish_stew
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/pasta_with_meatballs
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/jungle_log
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/warped_trapdoor
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/dark_oak_door
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/dumplings
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/dark_oak_trapdoor
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/oak_sign
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/warped_stem
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/leather_boots
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/baked_cod_stew
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/cabbage
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/crimson_door
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/pumpkin
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/chocolate_pie
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/dark_oak_log
+[02:21:33] [Render thread/WARN]: Unknown recipe category: apotheosis:fletching/apotheosis:fletching/explosive_arrow
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/noodle_soup
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/oak_trapdoor
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/warped_door
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/bricks
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/crimson_sign
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/cooked_mutton
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/dog_food
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/warped_hyphae
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/chicken
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/cod
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/jungle_sign
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/hot_cocoa
+[02:21:33] [Render thread/WARN]: Unknown recipe category: apotheosis:fletching/apotheosis:fletching/spectral_arrow
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/cabbage_rolls
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/acacia_trapdoor
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/squid_ink_pasta
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/jungle_trapdoor
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/clay
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/oak_wood
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/nether_bricks
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/crimson_hyphae
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/oak_log
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/birch_sign
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/spruce_wood
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/warped_sign
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/melon
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/brown_mushroom_colony
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/dark_oak_sign
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/acacia_sign
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/mutton
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/beef_stew
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/dark_oak_wood
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/birch_trapdoor
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/crimson_stem
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/spruce_log
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/leather_helmet
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/chicken_soup
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/birch_log
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/pasta_with_mutton_chop
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/birch_wood
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/ratatouille
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/cooked_rice
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/cooked_cod
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/cake
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/smoked_ham
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/stuffed_pumpkin_block
+[02:21:33] [Netty Epoll Client IO #3/INFO]: Received dedicated server config.
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/jungle_door
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/salmon
+[02:21:33] [Render thread/WARN]: Unknown recipe category: apotheosis:fletching/apotheosis:fletching/arrow
+[02:21:33] [Render thread/WARN]: Unknown recipe category: apotheosis:fletching/apotheosis:fletching/diamond_mining_arrow
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/saddle
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/spruce_sign
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/tomato_sauce
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/leather_leggings
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/fried_rice
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/rabbit_stew
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/vegetable_soup
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/oak_door
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/spruce_door
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/acacia_log
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/beetroot_soup
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/pumpkin_soup
+[02:21:33] [Render thread/WARN]: Unknown recipe category: apotheosis:fletching/apotheosis:fletching/obsidian_arrow
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/crimson_trapdoor
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/acacia_wood
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/mushroom_stew
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/porkchop
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/sweet_berry_cheesecake
+[02:21:33] [Render thread/WARN]: Unknown recipe category: apotheosis:fletching/apotheosis:fletching/broadhead_arrow
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/birch_door
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/spruce_trapdoor
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/cooked_salmon
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/red_mushroom_colony
+[02:21:33] [Render thread/WARN]: Unknown recipe category: apotheosis:fletching/apotheosis:fletching/iron_mining_arrow
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/rice_panicle
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/leather_chestplate
+[02:21:33] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/ham
+[02:21:34] [Render thread/INFO]: Minimap updated server level id: -295272591 for world ResourceKey[minecraft:dimension / minecraft:overworld]
+[02:21:34] [Render thread/INFO]: Loaded 70 advancements
+[02:21:34] [Render thread/INFO]: WorldRenderer reloaded minecraft:overworld
+[02:21:34] [Render thread/INFO]: Stopping worker threads
+[02:21:34] [Render thread/INFO]: Started 6 worker threads
+[02:21:35] [Render thread/ERROR]: Error executing task on Client
+java.lang.IllegalStateException: handling packet in ResourceKey[minecraft:dimension / minecraft:overworld] class net.minecraft.class_2739
+	at qouteall.imm_ptl.core.network.IPCommonNetworkClient.lambda$doProcessRedirectedMessage$3(IPCommonNetworkClient.java:90) ~[imm_ptl_core-1.4.5-9dd3d8e9dad1e3a8.jar:?]
+	at qouteall.q_misc_util.my_util.LimitedLogger.lambda$throwException$2(LimitedLogger.java:34) ~[q_misc_util-1.4.5-2c85157064843155.jar:?]
+	at qouteall.q_misc_util.my_util.LimitedLogger.invoke(LimitedLogger.java:28) ~[q_misc_util-1.4.5-2c85157064843155.jar:?]
+	at qouteall.q_misc_util.my_util.LimitedLogger.throwException(LimitedLogger.java:33) ~[q_misc_util-1.4.5-2c85157064843155.jar:?]
+	at qouteall.imm_ptl.core.network.IPCommonNetworkClient.doProcessRedirectedMessage(IPCommonNetworkClient.java:89) ~[imm_ptl_core-1.4.5-9dd3d8e9dad1e3a8.jar:?]
+	at qouteall.imm_ptl.core.network.IPCommonNetworkClient.lambda$processRedirectedPacket$0(IPCommonNetworkClient.java:49) ~[imm_ptl_core-1.4.5-9dd3d8e9dad1e3a8.jar:?]
+	at net.minecraft.class_1255.method_18859(class_1255.java:157) [client-intermediary.jar:?]
+	at net.minecraft.class_4093.method_18859(class_4093.java:23) [client-intermediary.jar:?]
+	at net.minecraft.class_1255.method_16075(class_1255.java:131) [client-intermediary.jar:?]
+	at net.minecraft.class_1255.method_5383(class_1255.java:116) [client-intermediary.jar:?]
+	at net.minecraft.class_310.method_1523(class_310.java:1085) [client-intermediary.jar:?]
+	at net.minecraft.class_310.method_1514(class_310.java:737) [client-intermediary.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:236) [client-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:460) [fabric-loader-0.14.6.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.6.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.6.jar:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
+	at org.multimc.impl.OneSixLauncher.invokeMain(OneSixLauncher.java:104) [NewLaunch.jar:?]
+	at org.multimc.impl.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:175) [NewLaunch.jar:?]
+	at org.multimc.impl.OneSixLauncher.launch(OneSixLauncher.java:185) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.listen(EntryPoint.java:127) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.main(EntryPoint.java:57) [NewLaunch.jar:?]
+Caused by: java.lang.IllegalStateException: Invalid entity data item type for field 21 on entity EntityFeralWolf['Feral Wolf'/84, l='ClientWorld minecraft:overworld', x=93.05, y=84.00, z=64.05]: old=1.0(class java.lang.Float), new=timber(class java.lang.String)
+	at net.minecraft.class_2945.method_12785(class_2945.java:245) ~[client-intermediary.jar:?]
+	at net.minecraft.class_2945.method_12779(class_2945.java:230) ~[client-intermediary.jar:?]
+	at net.minecraft.class_634.method_11093(class_634.java:460) ~[client-intermediary.jar:?]
+	at net.minecraft.class_2739.method_11808(class_2739.java:39) ~[client-intermediary.jar:?]
+	at net.minecraft.class_2739.method_11054(class_2739.java:11) ~[client-intermediary.jar:?]
+	at qouteall.imm_ptl.core.network.IPCommonNetworkClient.lambda$doProcessRedirectedMessage$2(IPCommonNetworkClient.java:86) ~[imm_ptl_core-1.4.5-9dd3d8e9dad1e3a8.jar:?]
+	at qouteall.imm_ptl.core.network.IPCommonNetworkClient.lambda$withSwitchedWorld$4(IPCommonNetworkClient.java:102) ~[imm_ptl_core-1.4.5-9dd3d8e9dad1e3a8.jar:?]
+	at qouteall.imm_ptl.core.network.IPCommonNetworkClient.withSwitchedWorld(IPCommonNetworkClient.java:128) ~[imm_ptl_core-1.4.5-9dd3d8e9dad1e3a8.jar:?]
+	at qouteall.imm_ptl.core.network.IPCommonNetworkClient.withSwitchedWorld(IPCommonNetworkClient.java:101) ~[imm_ptl_core-1.4.5-9dd3d8e9dad1e3a8.jar:?]
+	at qouteall.imm_ptl.core.network.IPCommonNetworkClient.doProcessRedirectedMessage(IPCommonNetworkClient.java:86) ~[imm_ptl_core-1.4.5-9dd3d8e9dad1e3a8.jar:?]
+	... 18 more
+[02:21:35] [Render thread/ERROR]: Error executing task on Client
+java.lang.IllegalStateException: handling packet in ResourceKey[minecraft:dimension / minecraft:overworld] class net.minecraft.class_2739
+	at qouteall.imm_ptl.core.network.IPCommonNetworkClient.lambda$doProcessRedirectedMessage$3(IPCommonNetworkClient.java:90) ~[imm_ptl_core-1.4.5-9dd3d8e9dad1e3a8.jar:?]
+	at qouteall.q_misc_util.my_util.LimitedLogger.lambda$throwException$2(LimitedLogger.java:34) ~[q_misc_util-1.4.5-2c85157064843155.jar:?]
+	at qouteall.q_misc_util.my_util.LimitedLogger.invoke(LimitedLogger.java:28) ~[q_misc_util-1.4.5-2c85157064843155.jar:?]
+	at qouteall.q_misc_util.my_util.LimitedLogger.throwException(LimitedLogger.java:33) ~[q_misc_util-1.4.5-2c85157064843155.jar:?]
+	at qouteall.imm_ptl.core.network.IPCommonNetworkClient.doProcessRedirectedMessage(IPCommonNetworkClient.java:89) ~[imm_ptl_core-1.4.5-9dd3d8e9dad1e3a8.jar:?]
+	at qouteall.imm_ptl.core.network.IPCommonNetworkClient.lambda$processRedirectedPacket$0(IPCommonNetworkClient.java:49) ~[imm_ptl_core-1.4.5-9dd3d8e9dad1e3a8.jar:?]
+	at net.minecraft.class_1255.method_18859(class_1255.java:157) [client-intermediary.jar:?]
+	at net.minecraft.class_4093.method_18859(class_4093.java:23) [client-intermediary.jar:?]
+	at net.minecraft.class_1255.method_16075(class_1255.java:131) [client-intermediary.jar:?]
+	at net.minecraft.class_1255.method_5383(class_1255.java:116) [client-intermediary.jar:?]
+	at net.minecraft.class_310.method_1523(class_310.java:1085) [client-intermediary.jar:?]
+	at net.minecraft.class_310.method_1514(class_310.java:737) [client-intermediary.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:236) [client-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:460) [fabric-loader-0.14.6.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.6.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.6.jar:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
+	at org.multimc.impl.OneSixLauncher.invokeMain(OneSixLauncher.java:104) [NewLaunch.jar:?]
+	at org.multimc.impl.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:175) [NewLaunch.jar:?]
+	at org.multimc.impl.OneSixLauncher.launch(OneSixLauncher.java:185) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.listen(EntryPoint.java:127) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.main(EntryPoint.java:57) [NewLaunch.jar:?]
+Caused by: java.lang.IllegalStateException: Invalid entity data item type for field 21 on entity EntityFeralWolf['Feral Wolf'/83, l='ClientWorld minecraft:overworld', x=85.02, y=83.00, z=68.00]: old=1.0(class java.lang.Float), new=timber(class java.lang.String)
+	at net.minecraft.class_2945.method_12785(class_2945.java:245) ~[client-intermediary.jar:?]
+	at net.minecraft.class_2945.method_12779(class_2945.java:230) ~[client-intermediary.jar:?]
+	at net.minecraft.class_634.method_11093(class_634.java:460) ~[client-intermediary.jar:?]
+	at net.minecraft.class_2739.method_11808(class_2739.java:39) ~[client-intermediary.jar:?]
+	at net.minecraft.class_2739.method_11054(class_2739.java:11) ~[client-intermediary.jar:?]
+	at qouteall.imm_ptl.core.network.IPCommonNetworkClient.lambda$doProcessRedirectedMessage$2(IPCommonNetworkClient.java:86) ~[imm_ptl_core-1.4.5-9dd3d8e9dad1e3a8.jar:?]
+	at qouteall.imm_ptl.core.network.IPCommonNetworkClient.lambda$withSwitchedWorld$4(IPCommonNetworkClient.java:102) ~[imm_ptl_core-1.4.5-9dd3d8e9dad1e3a8.jar:?]
+	at qouteall.imm_ptl.core.network.IPCommonNetworkClient.withSwitchedWorld(IPCommonNetworkClient.java:128) ~[imm_ptl_core-1.4.5-9dd3d8e9dad1e3a8.jar:?]
+	at qouteall.imm_ptl.core.network.IPCommonNetworkClient.withSwitchedWorld(IPCommonNetworkClient.java:101) ~[imm_ptl_core-1.4.5-9dd3d8e9dad1e3a8.jar:?]
+	at qouteall.imm_ptl.core.network.IPCommonNetworkClient.doProcessRedirectedMessage(IPCommonNetworkClient.java:86) ~[imm_ptl_core-1.4.5-9dd3d8e9dad1e3a8.jar:?]
+	... 18 more
+[02:21:35] [Render thread/ERROR]: Error executing task on Client
+java.lang.IllegalStateException: handling packet in ResourceKey[minecraft:dimension / minecraft:overworld] class net.minecraft.class_2739
+	at qouteall.imm_ptl.core.network.IPCommonNetworkClient.lambda$doProcessRedirectedMessage$3(IPCommonNetworkClient.java:90) ~[imm_ptl_core-1.4.5-9dd3d8e9dad1e3a8.jar:?]
+	at qouteall.q_misc_util.my_util.LimitedLogger.lambda$throwException$2(LimitedLogger.java:34) ~[q_misc_util-1.4.5-2c85157064843155.jar:?]
+	at qouteall.q_misc_util.my_util.LimitedLogger.invoke(LimitedLogger.java:28) ~[q_misc_util-1.4.5-2c85157064843155.jar:?]
+	at qouteall.q_misc_util.my_util.LimitedLogger.throwException(LimitedLogger.java:33) ~[q_misc_util-1.4.5-2c85157064843155.jar:?]
+	at qouteall.imm_ptl.core.network.IPCommonNetworkClient.doProcessRedirectedMessage(IPCommonNetworkClient.java:89) ~[imm_ptl_core-1.4.5-9dd3d8e9dad1e3a8.jar:?]
+	at qouteall.imm_ptl.core.network.IPCommonNetworkClient.lambda$processRedirectedPacket$0(IPCommonNetworkClient.java:49) ~[imm_ptl_core-1.4.5-9dd3d8e9dad1e3a8.jar:?]
+	at net.minecraft.class_1255.method_18859(class_1255.java:157) [client-intermediary.jar:?]
+	at net.minecraft.class_4093.method_18859(class_4093.java:23) [client-intermediary.jar:?]
+	at net.minecraft.class_1255.method_16075(class_1255.java:131) [client-intermediary.jar:?]
+	at net.minecraft.class_1255.method_5383(class_1255.java:116) [client-intermediary.jar:?]
+	at net.minecraft.class_310.method_1523(class_310.java:1085) [client-intermediary.jar:?]
+	at net.minecraft.class_310.method_1514(class_310.java:737) [client-intermediary.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:236) [client-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:460) [fabric-loader-0.14.6.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.6.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.6.jar:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
+	at org.multimc.impl.OneSixLauncher.invokeMain(OneSixLauncher.java:104) [NewLaunch.jar:?]
+	at org.multimc.impl.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:175) [NewLaunch.jar:?]
+	at org.multimc.impl.OneSixLauncher.launch(OneSixLauncher.java:185) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.listen(EntryPoint.java:127) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.main(EntryPoint.java:57) [NewLaunch.jar:?]
+Caused by: java.lang.IllegalStateException: Invalid entity data item type for field 21 on entity EntityFeralWolf['Feral Wolf'/85, l='ClientWorld minecraft:overworld', x=94.01, y=84.00, z=74.98]: old=1.0(class java.lang.Float), new=timber(class java.lang.String)
+	at net.minecraft.class_2945.method_12785(class_2945.java:245) ~[client-intermediary.jar:?]
+	at net.minecraft.class_2945.method_12779(class_2945.java:230) ~[client-intermediary.jar:?]
+	at net.minecraft.class_634.method_11093(class_634.java:460) ~[client-intermediary.jar:?]
+	at net.minecraft.class_2739.method_11808(class_2739.java:39) ~[client-intermediary.jar:?]
+	at net.minecraft.class_2739.method_11054(class_2739.java:11) ~[client-intermediary.jar:?]
+	at qouteall.imm_ptl.core.network.IPCommonNetworkClient.lambda$doProcessRedirectedMessage$2(IPCommonNetworkClient.java:86) ~[imm_ptl_core-1.4.5-9dd3d8e9dad1e3a8.jar:?]
+	at qouteall.imm_ptl.core.network.IPCommonNetworkClient.lambda$withSwitchedWorld$4(IPCommonNetworkClient.java:102) ~[imm_ptl_core-1.4.5-9dd3d8e9dad1e3a8.jar:?]
+	at qouteall.imm_ptl.core.network.IPCommonNetworkClient.withSwitchedWorld(IPCommonNetworkClient.java:128) ~[imm_ptl_core-1.4.5-9dd3d8e9dad1e3a8.jar:?]
+	at qouteall.imm_ptl.core.network.IPCommonNetworkClient.withSwitchedWorld(IPCommonNetworkClient.java:101) ~[imm_ptl_core-1.4.5-9dd3d8e9dad1e3a8.jar:?]
+	at qouteall.imm_ptl.core.network.IPCommonNetworkClient.doProcessRedirectedMessage(IPCommonNetworkClient.java:86) ~[imm_ptl_core-1.4.5-9dd3d8e9dad1e3a8.jar:?]
+	... 18 more
+[02:22:08] [Render thread/INFO]: [CHAT] SuperToasted joined the game
+[02:22:25] [Render thread/INFO]: [CHAT] Teleported SuperToasted to Endoman123
+[02:22:26] [Render thread/INFO]: [CHAT] [@: Teleported SuperToasted to 0.500000, 254.000000, 0.500000]
+[02:22:31] [Render thread/INFO]: [CHAT] [@: Teleported SuperToasted to 256.500000, 254.000000, 0.500000]
+[02:22:43] [Render thread/INFO]: [CHAT] <Endoman123> test
+[02:22:55] [Render thread/INFO]: [CHAT] [@: Teleported SuperToasted to 512.500000, 254.000000, 0.500000]
+[02:23:25] [Render thread/INFO]: [CHAT] [@: Teleported SuperToasted to 768.500000, 254.000000, 0.500000]
+[02:23:34] [Render thread/INFO]: [CHAT] [@: Teleported SuperToasted to 1024.500000, 254.000000, 0.500000]
+[02:24:04] [Netty Epoll Client IO #3/INFO]: Left dedicated server, restoring config.
+[02:24:04] [Render thread/INFO]: Minimap session finalized.
+[02:24:04] [Render thread/INFO]: Stopping worker threads
+[02:24:04] [Render thread/WARN]: Adding minecraft:chipped_anvil to saved/remote registry.
+[02:24:04] [Render thread/WARN]: Adding minecraft:anvil to saved/remote registry.
+[02:24:04] [Render thread/WARN]: Adding minecraft:damaged_anvil to saved/remote registry.
+[02:24:04] [Render thread/WARN]: Adding minecraft:sharpness to saved/remote registry.
+[02:24:04] [Render thread/WARN]: Adding minecraft:protection to saved/remote registry.
+[02:24:04] [Render thread/WARN]: Adding minecraft:smite to saved/remote registry.
+[02:24:04] [Render thread/WARN]: Adding minecraft:projectile_protection to saved/remote registry.
+[02:24:04] [Render thread/WARN]: Adding minecraft:fire_protection to saved/remote registry.
+[02:24:04] [Render thread/WARN]: Adding minecraft:feather_falling to saved/remote registry.
+[02:24:04] [Render thread/WARN]: Adding minecraft:blast_protection to saved/remote registry.
+[02:24:04] [Render thread/WARN]: Adding minecraft:bane_of_arthropods to saved/remote registry.
+[02:24:18] [Render thread/INFO]: Connecting to endoman.strangled.net, 25575
+[02:24:18] [Netty Epoll Client IO #4/INFO]: Successfully loaded '/game/GeneralLibrary/polymc/instances/vanilla-/.minecraft/config/betteranimalsplus-client.json5'
+[02:24:18] [Render thread/INFO]: Received Dimension Type Sync
+[02:24:18] [Render thread/INFO]: 
+minecraft:the_end -> minecraft:the_end
+immersive_portals:alternate1 -> immersive_portals:surface_type
+immersive_portals:alternate5 -> immersive_portals:surface_type
+minecraft:the_nether -> minecraft:the_nether
+minecraft:overworld -> minecraft:overworld
+immersive_portals:alternate2 -> immersive_portals:surface_type
+immersive_portals:alternate4 -> immersive_portals:surface_type
+immersive_portals:alternate3 -> immersive_portals:surface_type
+
+[02:24:18] [Render thread/INFO]: Received Dimension Int Id Sync
+[02:24:18] [Render thread/INFO]: 
+minecraft:the_nether -> -1
+minecraft:overworld -> 0
+minecraft:the_end -> 1
+immersive_portals:alternate3 -> 4
+immersive_portals:alternate5 -> 6
+immersive_portals:alternate4 -> 5
+immersive_portals:alternate1 -> 2
+immersive_portals:alternate2 -> 3
+[02:24:18] [Render thread/INFO]: New minimap session initialized!
+[02:24:18] [Render thread/INFO]: WorldRenderer reloaded minecraft:overworld
+[02:24:18] [Render thread/INFO]: Started 6 worker threads
+[02:24:18] [Render thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[02:24:18] [Render thread/INFO]: Joined dedicated server, asking for config.
+[02:24:18] [Render thread/INFO]: WorldRenderer reloaded minecraft:overworld
+[02:24:18] [Render thread/INFO]: Stopping worker threads
+[02:24:18] [Render thread/INFO]: Started 6 worker threads
+[02:24:18] [Netty Epoll Client IO #4/INFO]: Registered 23 enchanting_stats.
+[02:24:19] [Netty Epoll Client IO #4/INFO]: Received dedicated server config.
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/vegetable_noodles
+[02:24:19] [Render thread/WARN]: Unknown recipe category: apotheosis:fletching/apotheosis:fletching/iron_mining_arrow
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/pasta_with_meatballs
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/acacia_sign
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/birch_trapdoor
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/leather_leggings
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/spruce_log
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/tomato_sauce
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/smoked_ham
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/fish_stew
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/dark_oak_trapdoor
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/warped_sign
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/jungle_log
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/mutton
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/chocolate_pie
+[02:24:19] [Render thread/WARN]: Unknown recipe category: apotheosis:fletching/apotheosis:fletching/broadhead_arrow
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/chicken_soup
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/crimson_sign
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/crimson_trapdoor
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/rice_panicle
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/birch_log
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/squid_ink_pasta
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/cabbage_rolls
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/birch_sign
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/leather_boots
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/baked_cod_stew
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/dog_food
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/oak_door
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/cooked_cod
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/dark_oak_sign
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/warped_stem
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/ratatouille
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/warped_hyphae
+[02:24:19] [Render thread/WARN]: Unknown recipe category: apotheosis:fletching/apotheosis:fletching/spectral_arrow
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/saddle
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/spruce_wood
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/warped_door
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/cabbage
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/acacia_door
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/jungle_trapdoor
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/spruce_trapdoor
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/cooked_rice
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/sweet_berry_cheesecake
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/porkchop
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/acacia_trapdoor
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/spruce_sign
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/leather_chestplate
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/oak_trapdoor
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/beetroot_soup
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/cooked_mutton
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/dark_oak_log
+[02:24:19] [Render thread/WARN]: Unknown recipe category: apotheosis:fletching/apotheosis:fletching/arrow
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/dark_oak_door
+[02:24:19] [Render thread/WARN]: Unknown recipe category: apotheosis:fletching/apotheosis:fletching/obsidian_arrow
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/apple_pie
+[02:24:19] [Render thread/WARN]: Unknown recipe category: apotheosis:fletching/apotheosis:fletching/explosive_arrow
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/salmon
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/cod
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/melon
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/pumpkin
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/cooked_chicken
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/jungle_sign
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/jungle_door
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/crimson_stem
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/pumpkin_soup
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/vegetable_soup
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/stuffed_pumpkin_block
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/oak_log
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/mushroom_stew
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/rabbit_stew
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/crimson_hyphae
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/crimson_door
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/hot_cocoa
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/cake
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/birch_wood
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/oak_wood
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/chicken
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/beef
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/clay
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/dumplings
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/jungle_wood
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/ham
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/nether_bricks
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/fried_rice
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/acacia_log
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/brown_mushroom_colony
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/bricks
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/cooked_salmon
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/noodle_soup
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/birch_door
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/oak_sign
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/leather_helmet
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/beef_stew
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/red_mushroom_colony
+[02:24:19] [Render thread/WARN]: Unknown recipe category: apotheosis:fletching/apotheosis:fletching/diamond_mining_arrow
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/acacia_wood
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/dark_oak_wood
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/pasta_with_mutton_chop
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/spruce_door
+[02:24:19] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/warped_trapdoor
+[02:24:19] [Render thread/INFO]: Minimap updated server level id: -295272591 for world ResourceKey[minecraft:dimension / minecraft:overworld]
+[02:24:19] [Render thread/INFO]: Loaded 70 advancements
+[02:24:19] [Render thread/INFO]: WorldRenderer reloaded minecraft:overworld
+[02:24:19] [Render thread/INFO]: Stopping worker threads
+[02:24:19] [Render thread/INFO]: Started 6 worker threads
+[02:24:20] [Render thread/ERROR]: Error executing task on Client
+java.lang.IllegalStateException: handling packet in ResourceKey[minecraft:dimension / minecraft:overworld] class net.minecraft.class_2739
+	at qouteall.imm_ptl.core.network.IPCommonNetworkClient.lambda$doProcessRedirectedMessage$3(IPCommonNetworkClient.java:90) ~[imm_ptl_core-1.4.5-9dd3d8e9dad1e3a8.jar:?]
+	at qouteall.q_misc_util.my_util.LimitedLogger.lambda$throwException$2(LimitedLogger.java:34) ~[q_misc_util-1.4.5-2c85157064843155.jar:?]
+	at qouteall.q_misc_util.my_util.LimitedLogger.invoke(LimitedLogger.java:28) ~[q_misc_util-1.4.5-2c85157064843155.jar:?]
+	at qouteall.q_misc_util.my_util.LimitedLogger.throwException(LimitedLogger.java:33) ~[q_misc_util-1.4.5-2c85157064843155.jar:?]
+	at qouteall.imm_ptl.core.network.IPCommonNetworkClient.doProcessRedirectedMessage(IPCommonNetworkClient.java:89) ~[imm_ptl_core-1.4.5-9dd3d8e9dad1e3a8.jar:?]
+	at qouteall.imm_ptl.core.network.IPCommonNetworkClient.lambda$processRedirectedPacket$0(IPCommonNetworkClient.java:49) ~[imm_ptl_core-1.4.5-9dd3d8e9dad1e3a8.jar:?]
+	at net.minecraft.class_1255.method_18859(class_1255.java:157) [client-intermediary.jar:?]
+	at net.minecraft.class_4093.method_18859(class_4093.java:23) [client-intermediary.jar:?]
+	at net.minecraft.class_1255.method_16075(class_1255.java:131) [client-intermediary.jar:?]
+	at net.minecraft.class_1255.method_5383(class_1255.java:116) [client-intermediary.jar:?]
+	at net.minecraft.class_310.method_1523(class_310.java:1085) [client-intermediary.jar:?]
+	at net.minecraft.class_310.method_1514(class_310.java:737) [client-intermediary.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:236) [client-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:460) [fabric-loader-0.14.6.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.6.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.6.jar:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
+	at org.multimc.impl.OneSixLauncher.invokeMain(OneSixLauncher.java:104) [NewLaunch.jar:?]
+	at org.multimc.impl.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:175) [NewLaunch.jar:?]
+	at org.multimc.impl.OneSixLauncher.launch(OneSixLauncher.java:185) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.listen(EntryPoint.java:127) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.main(EntryPoint.java:57) [NewLaunch.jar:?]
+Caused by: java.lang.IllegalStateException: Invalid entity data item type for field 21 on entity EntityFeralWolf['Feral Wolf'/83, l='ClientWorld minecraft:overworld', x=85.95, y=84.00, z=65.01]: old=1.0(class java.lang.Float), new=timber(class java.lang.String)
+	at net.minecraft.class_2945.method_12785(class_2945.java:245) ~[client-intermediary.jar:?]
+	at net.minecraft.class_2945.method_12779(class_2945.java:230) ~[client-intermediary.jar:?]
+	at net.minecraft.class_634.method_11093(class_634.java:460) ~[client-intermediary.jar:?]
+	at net.minecraft.class_2739.method_11808(class_2739.java:39) ~[client-intermediary.jar:?]
+	at net.minecraft.class_2739.method_11054(class_2739.java:11) ~[client-intermediary.jar:?]
+	at qouteall.imm_ptl.core.network.IPCommonNetworkClient.lambda$doProcessRedirectedMessage$2(IPCommonNetworkClient.java:86) ~[imm_ptl_core-1.4.5-9dd3d8e9dad1e3a8.jar:?]
+	at qouteall.imm_ptl.core.network.IPCommonNetworkClient.lambda$withSwitchedWorld$4(IPCommonNetworkClient.java:102) ~[imm_ptl_core-1.4.5-9dd3d8e9dad1e3a8.jar:?]
+	at qouteall.imm_ptl.core.network.IPCommonNetworkClient.withSwitchedWorld(IPCommonNetworkClient.java:128) ~[imm_ptl_core-1.4.5-9dd3d8e9dad1e3a8.jar:?]
+	at qouteall.imm_ptl.core.network.IPCommonNetworkClient.withSwitchedWorld(IPCommonNetworkClient.java:101) ~[imm_ptl_core-1.4.5-9dd3d8e9dad1e3a8.jar:?]
+	at qouteall.imm_ptl.core.network.IPCommonNetworkClient.doProcessRedirectedMessage(IPCommonNetworkClient.java:86) ~[imm_ptl_core-1.4.5-9dd3d8e9dad1e3a8.jar:?]
+	... 18 more
+[02:24:20] [Render thread/ERROR]: Error executing task on Client
+java.lang.IllegalStateException: handling packet in ResourceKey[minecraft:dimension / minecraft:overworld] class net.minecraft.class_2739
+	at qouteall.imm_ptl.core.network.IPCommonNetworkClient.lambda$doProcessRedirectedMessage$3(IPCommonNetworkClient.java:90) ~[imm_ptl_core-1.4.5-9dd3d8e9dad1e3a8.jar:?]
+	at qouteall.q_misc_util.my_util.LimitedLogger.lambda$throwException$2(LimitedLogger.java:34) ~[q_misc_util-1.4.5-2c85157064843155.jar:?]
+	at qouteall.q_misc_util.my_util.LimitedLogger.invoke(LimitedLogger.java:28) ~[q_misc_util-1.4.5-2c85157064843155.jar:?]
+	at qouteall.q_misc_util.my_util.LimitedLogger.throwException(LimitedLogger.java:33) ~[q_misc_util-1.4.5-2c85157064843155.jar:?]
+	at qouteall.imm_ptl.core.network.IPCommonNetworkClient.doProcessRedirectedMessage(IPCommonNetworkClient.java:89) ~[imm_ptl_core-1.4.5-9dd3d8e9dad1e3a8.jar:?]
+	at qouteall.imm_ptl.core.network.IPCommonNetworkClient.lambda$processRedirectedPacket$0(IPCommonNetworkClient.java:49) ~[imm_ptl_core-1.4.5-9dd3d8e9dad1e3a8.jar:?]
+	at net.minecraft.class_1255.method_18859(class_1255.java:157) [client-intermediary.jar:?]
+	at net.minecraft.class_4093.method_18859(class_4093.java:23) [client-intermediary.jar:?]
+	at net.minecraft.class_1255.method_16075(class_1255.java:131) [client-intermediary.jar:?]
+	at net.minecraft.class_1255.method_5383(class_1255.java:116) [client-intermediary.jar:?]
+	at net.minecraft.class_310.method_1523(class_310.java:1085) [client-intermediary.jar:?]
+	at net.minecraft.class_310.method_1514(class_310.java:737) [client-intermediary.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:236) [client-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:460) [fabric-loader-0.14.6.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.6.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.6.jar:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
+	at org.multimc.impl.OneSixLauncher.invokeMain(OneSixLauncher.java:104) [NewLaunch.jar:?]
+	at org.multimc.impl.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:175) [NewLaunch.jar:?]
+	at org.multimc.impl.OneSixLauncher.launch(OneSixLauncher.java:185) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.listen(EntryPoint.java:127) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.main(EntryPoint.java:57) [NewLaunch.jar:?]
+Caused by: java.lang.IllegalStateException: Invalid entity data item type for field 21 on entity EntityFeralWolf['Feral Wolf'/84, l='ClientWorld minecraft:overworld', x=93.05, y=84.00, z=64.05]: old=1.0(class java.lang.Float), new=timber(class java.lang.String)
+	at net.minecraft.class_2945.method_12785(class_2945.java:245) ~[client-intermediary.jar:?]
+	at net.minecraft.class_2945.method_12779(class_2945.java:230) ~[client-intermediary.jar:?]
+	at net.minecraft.class_634.method_11093(class_634.java:460) ~[client-intermediary.jar:?]
+	at net.minecraft.class_2739.method_11808(class_2739.java:39) ~[client-intermediary.jar:?]
+	at net.minecraft.class_2739.method_11054(class_2739.java:11) ~[client-intermediary.jar:?]
+	at qouteall.imm_ptl.core.network.IPCommonNetworkClient.lambda$doProcessRedirectedMessage$2(IPCommonNetworkClient.java:86) ~[imm_ptl_core-1.4.5-9dd3d8e9dad1e3a8.jar:?]
+	at qouteall.imm_ptl.core.network.IPCommonNetworkClient.lambda$withSwitchedWorld$4(IPCommonNetworkClient.java:102) ~[imm_ptl_core-1.4.5-9dd3d8e9dad1e3a8.jar:?]
+	at qouteall.imm_ptl.core.network.IPCommonNetworkClient.withSwitchedWorld(IPCommonNetworkClient.java:128) ~[imm_ptl_core-1.4.5-9dd3d8e9dad1e3a8.jar:?]
+	at qouteall.imm_ptl.core.network.IPCommonNetworkClient.withSwitchedWorld(IPCommonNetworkClient.java:101) ~[imm_ptl_core-1.4.5-9dd3d8e9dad1e3a8.jar:?]
+	at qouteall.imm_ptl.core.network.IPCommonNetworkClient.doProcessRedirectedMessage(IPCommonNetworkClient.java:86) ~[imm_ptl_core-1.4.5-9dd3d8e9dad1e3a8.jar:?]
+	... 18 more
+[02:24:20] [Render thread/ERROR]: Error executing task on Client
+java.lang.IllegalStateException: handling packet in ResourceKey[minecraft:dimension / minecraft:overworld] class net.minecraft.class_2739
+	at qouteall.imm_ptl.core.network.IPCommonNetworkClient.lambda$doProcessRedirectedMessage$3(IPCommonNetworkClient.java:90) ~[imm_ptl_core-1.4.5-9dd3d8e9dad1e3a8.jar:?]
+	at qouteall.q_misc_util.my_util.LimitedLogger.lambda$throwException$2(LimitedLogger.java:34) ~[q_misc_util-1.4.5-2c85157064843155.jar:?]
+	at qouteall.q_misc_util.my_util.LimitedLogger.invoke(LimitedLogger.java:28) ~[q_misc_util-1.4.5-2c85157064843155.jar:?]
+	at qouteall.q_misc_util.my_util.LimitedLogger.throwException(LimitedLogger.java:33) ~[q_misc_util-1.4.5-2c85157064843155.jar:?]
+	at qouteall.imm_ptl.core.network.IPCommonNetworkClient.doProcessRedirectedMessage(IPCommonNetworkClient.java:89) ~[imm_ptl_core-1.4.5-9dd3d8e9dad1e3a8.jar:?]
+	at qouteall.imm_ptl.core.network.IPCommonNetworkClient.lambda$processRedirectedPacket$0(IPCommonNetworkClient.java:49) ~[imm_ptl_core-1.4.5-9dd3d8e9dad1e3a8.jar:?]
+	at net.minecraft.class_1255.method_18859(class_1255.java:157) [client-intermediary.jar:?]
+	at net.minecraft.class_4093.method_18859(class_4093.java:23) [client-intermediary.jar:?]
+	at net.minecraft.class_1255.method_16075(class_1255.java:131) [client-intermediary.jar:?]
+	at net.minecraft.class_1255.method_5383(class_1255.java:116) [client-intermediary.jar:?]
+	at net.minecraft.class_310.method_1523(class_310.java:1085) [client-intermediary.jar:?]
+	at net.minecraft.class_310.method_1514(class_310.java:737) [client-intermediary.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:236) [client-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:460) [fabric-loader-0.14.6.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.6.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.6.jar:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
+	at org.multimc.impl.OneSixLauncher.invokeMain(OneSixLauncher.java:104) [NewLaunch.jar:?]
+	at org.multimc.impl.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:175) [NewLaunch.jar:?]
+	at org.multimc.impl.OneSixLauncher.launch(OneSixLauncher.java:185) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.listen(EntryPoint.java:127) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.main(EntryPoint.java:57) [NewLaunch.jar:?]
+Caused by: java.lang.IllegalStateException: Invalid entity data item type for field 21 on entity EntityFeralWolf['Feral Wolf'/85, l='ClientWorld minecraft:overworld', x=94.01, y=84.00, z=74.98]: old=1.0(class java.lang.Float), new=timber(class java.lang.String)
+	at net.minecraft.class_2945.method_12785(class_2945.java:245) ~[client-intermediary.jar:?]
+	at net.minecraft.class_2945.method_12779(class_2945.java:230) ~[client-intermediary.jar:?]
+	at net.minecraft.class_634.method_11093(class_634.java:460) ~[client-intermediary.jar:?]
+	at net.minecraft.class_2739.method_11808(class_2739.java:39) ~[client-intermediary.jar:?]
+	at net.minecraft.class_2739.method_11054(class_2739.java:11) ~[client-intermediary.jar:?]
+	at qouteall.imm_ptl.core.network.IPCommonNetworkClient.lambda$doProcessRedirectedMessage$2(IPCommonNetworkClient.java:86) ~[imm_ptl_core-1.4.5-9dd3d8e9dad1e3a8.jar:?]
+	at qouteall.imm_ptl.core.network.IPCommonNetworkClient.lambda$withSwitchedWorld$4(IPCommonNetworkClient.java:102) ~[imm_ptl_core-1.4.5-9dd3d8e9dad1e3a8.jar:?]
+	at qouteall.imm_ptl.core.network.IPCommonNetworkClient.withSwitchedWorld(IPCommonNetworkClient.java:128) ~[imm_ptl_core-1.4.5-9dd3d8e9dad1e3a8.jar:?]
+	at qouteall.imm_ptl.core.network.IPCommonNetworkClient.withSwitchedWorld(IPCommonNetworkClient.java:101) ~[imm_ptl_core-1.4.5-9dd3d8e9dad1e3a8.jar:?]
+	at qouteall.imm_ptl.core.network.IPCommonNetworkClient.doProcessRedirectedMessage(IPCommonNetworkClient.java:86) ~[imm_ptl_core-1.4.5-9dd3d8e9dad1e3a8.jar:?]
+	... 18 more
+[02:24:33] [Render thread/INFO]: [CHAT] SuperToasted joined the game
+[02:25:03] [Netty Epoll Client IO #4/INFO]: Left dedicated server, restoring config.
+[02:25:04] [Render thread/INFO]: Minimap session finalized.
+[02:25:04] [Render thread/INFO]: Stopping worker threads
+[02:25:04] [Render thread/WARN]: Adding minecraft:chipped_anvil to saved/remote registry.
+[02:25:04] [Render thread/WARN]: Adding minecraft:anvil to saved/remote registry.
+[02:25:04] [Render thread/WARN]: Adding minecraft:damaged_anvil to saved/remote registry.
+[02:25:04] [Render thread/WARN]: Adding minecraft:sharpness to saved/remote registry.
+[02:25:04] [Render thread/WARN]: Adding minecraft:protection to saved/remote registry.
+[02:25:04] [Render thread/WARN]: Adding minecraft:smite to saved/remote registry.
+[02:25:04] [Render thread/WARN]: Adding minecraft:projectile_protection to saved/remote registry.
+[02:25:04] [Render thread/WARN]: Adding minecraft:fire_protection to saved/remote registry.
+[02:25:04] [Render thread/WARN]: Adding minecraft:feather_falling to saved/remote registry.
+[02:25:04] [Render thread/WARN]: Adding minecraft:blast_protection to saved/remote registry.
+[02:25:04] [Render thread/WARN]: Adding minecraft:bane_of_arthropods to saved/remote registry.
+[02:25:22] [Render thread/INFO]: Connecting to endoman.strangled.net, 25575
+[02:25:35] [Render thread/INFO]: Connecting to endoman.strangled.net, 25575
+[02:25:39] [Netty Epoll Client IO #6/INFO]: Successfully loaded '/game/GeneralLibrary/polymc/instances/vanilla-/.minecraft/config/betteranimalsplus-client.json5'
+[02:25:39] [Render thread/INFO]: Received Dimension Type Sync
+[02:25:39] [Render thread/INFO]: 
+minecraft:the_end -> minecraft:the_end
+immersive_portals:alternate1 -> immersive_portals:surface_type
+immersive_portals:alternate5 -> immersive_portals:surface_type
+minecraft:the_nether -> minecraft:the_nether
+minecraft:overworld -> minecraft:overworld
+immersive_portals:alternate2 -> immersive_portals:surface_type
+immersive_portals:alternate4 -> immersive_portals:surface_type
+immersive_portals:alternate3 -> immersive_portals:surface_type
+
+[02:25:39] [Render thread/INFO]: Received Dimension Int Id Sync
+[02:25:39] [Render thread/INFO]: 
+minecraft:the_nether -> -1
+minecraft:overworld -> 0
+minecraft:the_end -> 1
+immersive_portals:alternate3 -> 4
+immersive_portals:alternate5 -> 6
+immersive_portals:alternate4 -> 5
+immersive_portals:alternate1 -> 2
+immersive_portals:alternate2 -> 3
+[02:25:39] [Render thread/INFO]: New minimap session initialized!
+[02:25:39] [Render thread/INFO]: WorldRenderer reloaded minecraft:overworld
+[02:25:39] [Render thread/INFO]: Started 6 worker threads
+[02:25:39] [Render thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[02:25:39] [Render thread/INFO]: Joined dedicated server, asking for config.
+[02:25:39] [Netty Epoll Client IO #6/INFO]: Registered 23 enchanting_stats.
+[02:25:39] [Render thread/INFO]: WorldRenderer reloaded minecraft:overworld
+[02:25:39] [Render thread/INFO]: Stopping worker threads
+[02:25:39] [Render thread/INFO]: Started 6 worker threads
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/crimson_sign
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/nether_bricks
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/leather_helmet
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/melon
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/warped_door
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/oak_door
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/sweet_berry_cheesecake
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/oak_trapdoor
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/beef
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/rice_panicle
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/cod
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/jungle_trapdoor
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/dark_oak_wood
+[02:25:39] [Render thread/WARN]: Unknown recipe category: apotheosis:fletching/apotheosis:fletching/explosive_arrow
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/stuffed_pumpkin_block
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/warped_hyphae
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/acacia_door
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/tomato_sauce
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/squid_ink_pasta
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/oak_sign
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/leather_boots
+[02:25:39] [Render thread/WARN]: Unknown recipe category: apotheosis:fletching/apotheosis:fletching/diamond_mining_arrow
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/warped_stem
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/chicken_soup
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/dark_oak_log
+[02:25:39] [Netty Epoll Client IO #6/INFO]: Received dedicated server config.
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/mushroom_stew
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/cooked_mutton
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/hot_cocoa
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/cooked_chicken
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/fried_rice
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/red_mushroom_colony
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/cooked_rice
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/beef_stew
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/oak_wood
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/warped_sign
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/salmon
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/smoked_ham
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/cooked_cod
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/dark_oak_sign
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/brown_mushroom_colony
+[02:25:39] [Render thread/WARN]: Unknown recipe category: apotheosis:fletching/apotheosis:fletching/spectral_arrow
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/mutton
+[02:25:39] [Render thread/WARN]: Unknown recipe category: apotheosis:fletching/apotheosis:fletching/obsidian_arrow
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/birch_wood
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/bricks
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/apple_pie
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/birch_door
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/rabbit_stew
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/birch_log
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/birch_sign
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/spruce_sign
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/crimson_stem
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/spruce_door
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/cabbage
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/spruce_trapdoor
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/ratatouille
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/fish_stew
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/cooked_salmon
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/pasta_with_mutton_chop
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/crimson_door
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/dark_oak_door
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/crimson_trapdoor
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/acacia_sign
+[02:25:39] [Render thread/WARN]: Unknown recipe category: apotheosis:fletching/apotheosis:fletching/arrow
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/saddle
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/jungle_door
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/chicken
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/beetroot_soup
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/pumpkin
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/acacia_wood
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/jungle_sign
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/jungle_wood
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/vegetable_soup
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/oak_log
+[02:25:39] [Render thread/WARN]: Unknown recipe category: apotheosis:fletching/apotheosis:fletching/broadhead_arrow
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/birch_trapdoor
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/porkchop
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/clay
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/noodle_soup
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/cabbage_rolls
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/jungle_log
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/pumpkin_soup
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/leather_chestplate
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/chocolate_pie
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/dumplings
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/spruce_wood
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/cake
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/acacia_log
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/spruce_log
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/leather_leggings
+[02:25:39] [Render thread/WARN]: Unknown recipe category: apotheosis:fletching/apotheosis:fletching/iron_mining_arrow
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/acacia_trapdoor
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/crimson_hyphae
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/pasta_with_meatballs
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/ham
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/dark_oak_trapdoor
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/vegetable_noodles
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/dog_food
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cutting/farmersdelight:cutting/warped_trapdoor
+[02:25:39] [Render thread/WARN]: Unknown recipe category: farmersdelight:cooking/farmersdelight:cooking/baked_cod_stew
+[02:25:40] [Render thread/INFO]: Minimap updated server level id: -295272591 for world ResourceKey[minecraft:dimension / minecraft:overworld]
+[02:25:40] [Render thread/INFO]: Loaded 70 advancements
+[02:25:40] [Render thread/INFO]: WorldRenderer reloaded minecraft:overworld
+[02:25:40] [Render thread/INFO]: Stopping worker threads
+[02:25:40] [Render thread/INFO]: Started 6 worker threads
+[02:25:41] [Render thread/ERROR]: Error executing task on Client
+java.lang.IllegalStateException: handling packet in ResourceKey[minecraft:dimension / minecraft:overworld] class net.minecraft.class_2739
+	at qouteall.imm_ptl.core.network.IPCommonNetworkClient.lambda$doProcessRedirectedMessage$3(IPCommonNetworkClient.java:90) ~[imm_ptl_core-1.4.5-9dd3d8e9dad1e3a8.jar:?]
+	at qouteall.q_misc_util.my_util.LimitedLogger.lambda$throwException$2(LimitedLogger.java:34) ~[q_misc_util-1.4.5-2c85157064843155.jar:?]
+	at qouteall.q_misc_util.my_util.LimitedLogger.invoke(LimitedLogger.java:28) ~[q_misc_util-1.4.5-2c85157064843155.jar:?]
+	at qouteall.q_misc_util.my_util.LimitedLogger.throwException(LimitedLogger.java:33) ~[q_misc_util-1.4.5-2c85157064843155.jar:?]
+	at qouteall.imm_ptl.core.network.IPCommonNetworkClient.doProcessRedirectedMessage(IPCommonNetworkClient.java:89) ~[imm_ptl_core-1.4.5-9dd3d8e9dad1e3a8.jar:?]
+	at qouteall.imm_ptl.core.network.IPCommonNetworkClient.lambda$processRedirectedPacket$0(IPCommonNetworkClient.java:49) ~[imm_ptl_core-1.4.5-9dd3d8e9dad1e3a8.jar:?]
+	at net.minecraft.class_1255.method_18859(class_1255.java:157) [client-intermediary.jar:?]
+	at net.minecraft.class_4093.method_18859(class_4093.java:23) [client-intermediary.jar:?]
+	at net.minecraft.class_1255.method_16075(class_1255.java:131) [client-intermediary.jar:?]
+	at net.minecraft.class_1255.method_5383(class_1255.java:116) [client-intermediary.jar:?]
+	at net.minecraft.class_310.method_1523(class_310.java:1085) [client-intermediary.jar:?]
+	at net.minecraft.class_310.method_1514(class_310.java:737) [client-intermediary.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:236) [client-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:460) [fabric-loader-0.14.6.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.6.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.6.jar:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
+	at org.multimc.impl.OneSixLauncher.invokeMain(OneSixLauncher.java:104) [NewLaunch.jar:?]
+	at org.multimc.impl.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:175) [NewLaunch.jar:?]
+	at org.multimc.impl.OneSixLauncher.launch(OneSixLauncher.java:185) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.listen(EntryPoint.java:127) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.main(EntryPoint.java:57) [NewLaunch.jar:?]
+Caused by: java.lang.IllegalStateException: Invalid entity data item type for field 21 on entity EntityFeralWolf['Feral Wolf'/84, l='ClientWorld minecraft:overworld', x=93.05, y=84.00, z=64.05]: old=1.0(class java.lang.Float), new=timber(class java.lang.String)
+	at net.minecraft.class_2945.method_12785(class_2945.java:245) ~[client-intermediary.jar:?]
+	at net.minecraft.class_2945.method_12779(class_2945.java:230) ~[client-intermediary.jar:?]
+	at net.minecraft.class_634.method_11093(class_634.java:460) ~[client-intermediary.jar:?]
+	at net.minecraft.class_2739.method_11808(class_2739.java:39) ~[client-intermediary.jar:?]
+	at net.minecraft.class_2739.method_11054(class_2739.java:11) ~[client-intermediary.jar:?]
+	at qouteall.imm_ptl.core.network.IPCommonNetworkClient.lambda$doProcessRedirectedMessage$2(IPCommonNetworkClient.java:86) ~[imm_ptl_core-1.4.5-9dd3d8e9dad1e3a8.jar:?]
+	at qouteall.imm_ptl.core.network.IPCommonNetworkClient.lambda$withSwitchedWorld$4(IPCommonNetworkClient.java:102) ~[imm_ptl_core-1.4.5-9dd3d8e9dad1e3a8.jar:?]
+	at qouteall.imm_ptl.core.network.IPCommonNetworkClient.withSwitchedWorld(IPCommonNetworkClient.java:128) ~[imm_ptl_core-1.4.5-9dd3d8e9dad1e3a8.jar:?]
+	at qouteall.imm_ptl.core.network.IPCommonNetworkClient.withSwitchedWorld(IPCommonNetworkClient.java:101) ~[imm_ptl_core-1.4.5-9dd3d8e9dad1e3a8.jar:?]
+	at qouteall.imm_ptl.core.network.IPCommonNetworkClient.doProcessRedirectedMessage(IPCommonNetworkClient.java:86) ~[imm_ptl_core-1.4.5-9dd3d8e9dad1e3a8.jar:?]
+	... 18 more
+[02:25:41] [Render thread/ERROR]: Error executing task on Client
+java.lang.IllegalStateException: handling packet in ResourceKey[minecraft:dimension / minecraft:overworld] class net.minecraft.class_2739
+	at qouteall.imm_ptl.core.network.IPCommonNetworkClient.lambda$doProcessRedirectedMessage$3(IPCommonNetworkClient.java:90) ~[imm_ptl_core-1.4.5-9dd3d8e9dad1e3a8.jar:?]
+	at qouteall.q_misc_util.my_util.LimitedLogger.lambda$throwException$2(LimitedLogger.java:34) ~[q_misc_util-1.4.5-2c85157064843155.jar:?]
+	at qouteall.q_misc_util.my_util.LimitedLogger.invoke(LimitedLogger.java:28) ~[q_misc_util-1.4.5-2c85157064843155.jar:?]
+	at qouteall.q_misc_util.my_util.LimitedLogger.throwException(LimitedLogger.java:33) ~[q_misc_util-1.4.5-2c85157064843155.jar:?]
+	at qouteall.imm_ptl.core.network.IPCommonNetworkClient.doProcessRedirectedMessage(IPCommonNetworkClient.java:89) ~[imm_ptl_core-1.4.5-9dd3d8e9dad1e3a8.jar:?]
+	at qouteall.imm_ptl.core.network.IPCommonNetworkClient.lambda$processRedirectedPacket$0(IPCommonNetworkClient.java:49) ~[imm_ptl_core-1.4.5-9dd3d8e9dad1e3a8.jar:?]
+	at net.minecraft.class_1255.method_18859(class_1255.java:157) [client-intermediary.jar:?]
+	at net.minecraft.class_4093.method_18859(class_4093.java:23) [client-intermediary.jar:?]
+	at net.minecraft.class_1255.method_16075(class_1255.java:131) [client-intermediary.jar:?]
+	at net.minecraft.class_1255.method_5383(class_1255.java:116) [client-intermediary.jar:?]
+	at net.minecraft.class_310.method_1523(class_310.java:1085) [client-intermediary.jar:?]
+	at net.minecraft.class_310.method_1514(class_310.java:737) [client-intermediary.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:236) [client-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:460) [fabric-loader-0.14.6.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.6.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.6.jar:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
+	at org.multimc.impl.OneSixLauncher.invokeMain(OneSixLauncher.java:104) [NewLaunch.jar:?]
+	at org.multimc.impl.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:175) [NewLaunch.jar:?]
+	at org.multimc.impl.OneSixLauncher.launch(OneSixLauncher.java:185) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.listen(EntryPoint.java:127) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.main(EntryPoint.java:57) [NewLaunch.jar:?]
+Caused by: java.lang.IllegalStateException: Invalid entity data item type for field 21 on entity EntityFeralWolf['Feral Wolf'/83, l='ClientWorld minecraft:overworld', x=85.95, y=84.00, z=65.01]: old=1.0(class java.lang.Float), new=timber(class java.lang.String)
+	at net.minecraft.class_2945.method_12785(class_2945.java:245) ~[client-intermediary.jar:?]
+	at net.minecraft.class_2945.method_12779(class_2945.java:230) ~[client-intermediary.jar:?]
+	at net.minecraft.class_634.method_11093(class_634.java:460) ~[client-intermediary.jar:?]
+	at net.minecraft.class_2739.method_11808(class_2739.java:39) ~[client-intermediary.jar:?]
+	at net.minecraft.class_2739.method_11054(class_2739.java:11) ~[client-intermediary.jar:?]
+	at qouteall.imm_ptl.core.network.IPCommonNetworkClient.lambda$doProcessRedirectedMessage$2(IPCommonNetworkClient.java:86) ~[imm_ptl_core-1.4.5-9dd3d8e9dad1e3a8.jar:?]
+	at qouteall.imm_ptl.core.network.IPCommonNetworkClient.lambda$withSwitchedWorld$4(IPCommonNetworkClient.java:102) ~[imm_ptl_core-1.4.5-9dd3d8e9dad1e3a8.jar:?]
+	at qouteall.imm_ptl.core.network.IPCommonNetworkClient.withSwitchedWorld(IPCommonNetworkClient.java:128) ~[imm_ptl_core-1.4.5-9dd3d8e9dad1e3a8.jar:?]
+	at qouteall.imm_ptl.core.network.IPCommonNetworkClient.withSwitchedWorld(IPCommonNetworkClient.java:101) ~[imm_ptl_core-1.4.5-9dd3d8e9dad1e3a8.jar:?]
+	at qouteall.imm_ptl.core.network.IPCommonNetworkClient.doProcessRedirectedMessage(IPCommonNetworkClient.java:86) ~[imm_ptl_core-1.4.5-9dd3d8e9dad1e3a8.jar:?]
+	... 18 more
+[02:25:41] [Render thread/ERROR]: Error executing task on Client
+java.lang.IllegalStateException: handling packet in ResourceKey[minecraft:dimension / minecraft:overworld] class net.minecraft.class_2739
+	at qouteall.imm_ptl.core.network.IPCommonNetworkClient.lambda$doProcessRedirectedMessage$3(IPCommonNetworkClient.java:90) ~[imm_ptl_core-1.4.5-9dd3d8e9dad1e3a8.jar:?]
+	at qouteall.q_misc_util.my_util.LimitedLogger.lambda$throwException$2(LimitedLogger.java:34) ~[q_misc_util-1.4.5-2c85157064843155.jar:?]
+	at qouteall.q_misc_util.my_util.LimitedLogger.invoke(LimitedLogger.java:28) ~[q_misc_util-1.4.5-2c85157064843155.jar:?]
+	at qouteall.q_misc_util.my_util.LimitedLogger.throwException(LimitedLogger.java:33) ~[q_misc_util-1.4.5-2c85157064843155.jar:?]
+	at qouteall.imm_ptl.core.network.IPCommonNetworkClient.doProcessRedirectedMessage(IPCommonNetworkClient.java:89) ~[imm_ptl_core-1.4.5-9dd3d8e9dad1e3a8.jar:?]
+	at qouteall.imm_ptl.core.network.IPCommonNetworkClient.lambda$processRedirectedPacket$0(IPCommonNetworkClient.java:49) ~[imm_ptl_core-1.4.5-9dd3d8e9dad1e3a8.jar:?]
+	at net.minecraft.class_1255.method_18859(class_1255.java:157) [client-intermediary.jar:?]
+	at net.minecraft.class_4093.method_18859(class_4093.java:23) [client-intermediary.jar:?]
+	at net.minecraft.class_1255.method_16075(class_1255.java:131) [client-intermediary.jar:?]
+	at net.minecraft.class_1255.method_5383(class_1255.java:116) [client-intermediary.jar:?]
+	at net.minecraft.class_310.method_1523(class_310.java:1085) [client-intermediary.jar:?]
+	at net.minecraft.class_310.method_1514(class_310.java:737) [client-intermediary.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:236) [client-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:460) [fabric-loader-0.14.6.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.6.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.6.jar:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
+	at org.multimc.impl.OneSixLauncher.invokeMain(OneSixLauncher.java:104) [NewLaunch.jar:?]
+	at org.multimc.impl.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:175) [NewLaunch.jar:?]
+	at org.multimc.impl.OneSixLauncher.launch(OneSixLauncher.java:185) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.listen(EntryPoint.java:127) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.main(EntryPoint.java:57) [NewLaunch.jar:?]
+Caused by: java.lang.IllegalStateException: Invalid entity data item type for field 21 on entity EntityFeralWolf['Feral Wolf'/85, l='ClientWorld minecraft:overworld', x=94.01, y=84.00, z=74.98]: old=1.0(class java.lang.Float), new=timber(class java.lang.String)
+	at net.minecraft.class_2945.method_12785(class_2945.java:245) ~[client-intermediary.jar:?]
+	at net.minecraft.class_2945.method_12779(class_2945.java:230) ~[client-intermediary.jar:?]
+	at net.minecraft.class_634.method_11093(class_634.java:460) ~[client-intermediary.jar:?]
+	at net.minecraft.class_2739.method_11808(class_2739.java:39) ~[client-intermediary.jar:?]
+	at net.minecraft.class_2739.method_11054(class_2739.java:11) ~[client-intermediary.jar:?]
+	at qouteall.imm_ptl.core.network.IPCommonNetworkClient.lambda$doProcessRedirectedMessage$2(IPCommonNetworkClient.java:86) ~[imm_ptl_core-1.4.5-9dd3d8e9dad1e3a8.jar:?]
+	at qouteall.imm_ptl.core.network.IPCommonNetworkClient.lambda$withSwitchedWorld$4(IPCommonNetworkClient.java:102) ~[imm_ptl_core-1.4.5-9dd3d8e9dad1e3a8.jar:?]
+	at qouteall.imm_ptl.core.network.IPCommonNetworkClient.withSwitchedWorld(IPCommonNetworkClient.java:128) ~[imm_ptl_core-1.4.5-9dd3d8e9dad1e3a8.jar:?]
+	at qouteall.imm_ptl.core.network.IPCommonNetworkClient.withSwitchedWorld(IPCommonNetworkClient.java:101) ~[imm_ptl_core-1.4.5-9dd3d8e9dad1e3a8.jar:?]
+	at qouteall.imm_ptl.core.network.IPCommonNetworkClient.doProcessRedirectedMessage(IPCommonNetworkClient.java:86) ~[imm_ptl_core-1.4.5-9dd3d8e9dad1e3a8.jar:?]
+	... 18 more
+[02:25:46] [Render thread/INFO]: [CHAT] [@: Teleported SuperToasted to 1536.500000, 254.000000, 0.500000]
+[02:25:53] [Netty Epoll Client IO #6/INFO]: Left dedicated server, restoring config.
+[02:25:53] [Render thread/INFO]: Minimap session finalized.
+[02:25:53] [Render thread/INFO]: Stopping worker threads
+[02:25:53] [Render thread/WARN]: Adding minecraft:chipped_anvil to saved/remote registry.
+[02:25:53] [Render thread/WARN]: Adding minecraft:anvil to saved/remote registry.
+[02:25:53] [Render thread/WARN]: Adding minecraft:damaged_anvil to saved/remote registry.
+[02:25:53] [Render thread/WARN]: Adding minecraft:sharpness to saved/remote registry.
+[02:25:53] [Render thread/WARN]: Adding minecraft:protection to saved/remote registry.
+[02:25:53] [Render thread/WARN]: Adding minecraft:smite to saved/remote registry.
+[02:25:53] [Render thread/WARN]: Adding minecraft:projectile_protection to saved/remote registry.
+[02:25:53] [Render thread/WARN]: Adding minecraft:fire_protection to saved/remote registry.
+[02:25:53] [Render thread/WARN]: Adding minecraft:feather_falling to saved/remote registry.
+[02:25:53] [Render thread/WARN]: Adding minecraft:blast_protection to saved/remote registry.
+[02:25:53] [Render thread/WARN]: Adding minecraft:bane_of_arthropods to saved/remote registry.
+[02:25:55] [Render thread/INFO]: Stopping!
