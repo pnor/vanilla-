@@ -1,5 +1,5 @@
 {
   "enableMod": true,
-  "onlyDisplayOnBooks": false,
-  "onlyDisplayInEnchantingTable": false
+  "onlyDisplayOnBooks": true,
+  "onlyDisplayInEnchantingTable": true
 }

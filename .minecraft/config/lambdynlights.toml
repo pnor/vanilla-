@@ -1,0 +1,102 @@
+# LambDynamicLights configuration.
+# The dynamic lights mode
+mode = "fancy"
+
+# Light sources settings.
+[light_sources]
+	# Enable entities light source.
+	entities = true
+	# Enable block entities light source.
+	block_entities = true
+	# Enables water-sensitive light sources check. This means that water-sensitive items will not light up when submerged in water.
+	water_sensitive_check = true
+	# Creeper lighting mode. May be off, simple or fancy.
+	creeper = "simple"
+	# TNT lighting mode. May be off, simple or fancy.
+	tnt = "off"
+
+	[light_sources.settings]
+
+		[light_sources.settings.entities]
+
+			[light_sources.settings.entities.minecraft]
+				glow_item_frame = false
+				player = true
+				item = true
+				enderman = true
+				creeper = true
+				spider = true
+				zombie = true
+				skeleton = true
+				bat = true
+				squid = true
+				zombie_villager = true
+				glow_squid = true
+				salmon = true
+				axolotl = true
+				tropical_fish = true
+				drowned = true
+				tnt_minecart = true
+				wolf = true
+				chicken = true
+				chest_minecart = true
+				pig = true
+				cow = true
+				sheep = true
+				horse = true
+				witch = true
+				villager = true
+				cat = true
+				iron_golem = true
+				cave_spider = true
+				bee = true
+				armor_stand = true
+				fox = true
+				rabbit = true
+				donkey = true
+				pillager = true
+				dolphin = true
+				cod = true
+				stray = true
+				slime = true
+				vindicator = true
+				evoker = true
+
+			[light_sources.settings.entities.betteranimalsplus]
+				dragonfly = true
+				reindeer = true
+				whale = true
+				jellyfish = true
+				eel_freshwater = true
+				lamprey = true
+				shark = true
+				butterfly = true
+				horseshoecrab = true
+				crab = true
+				moose = true
+				songbird = true
+				brownbear = true
+				badger = true
+				squirrel = true
+				coyote = true
+				pheasant = true
+				boar = true
+				goose = true
+				badgerdirt = true
+				feralwolf = true
+				lammergeier = true
+				deer = true
+				tarantula = true
+				nautilus = true
+				eel_saltwater = true
+				bobbit_worm = true
+				octopus = true
+				blackbear = true
+
+			[light_sources.settings.entities.friendsandfoes]
+				glare = true
+				moobloom = true
+
+			[light_sources.settings.entities.twm]
+				frog = true
+
