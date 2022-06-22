@@ -61,6 +61,9 @@ mode = "fancy"
 				slime = true
 				vindicator = true
 				evoker = true
+				arrow = true
+				phantom = true
+				experience_orb = true
 
 			[light_sources.settings.entities.betteranimalsplus]
 				dragonfly = true
@@ -92,11 +95,18 @@ mode = "fancy"
 				bobbit_worm = true
 				octopus = true
 				blackbear = true
+				turkey = true
+				piranha = true
 
 			[light_sources.settings.entities.friendsandfoes]
 				glare = true
 				moobloom = true
+				copper_golem = true
+				mauler = true
 
 			[light_sources.settings.entities.twm]
 				frog = true
+
+			[light_sources.settings.entities.capybara]
+				capybara = true
 
