@@ -21,7 +21,7 @@ optionsButton = true
 			drawResolution = "BLOCK"
 			# The radius of the mod's render distance. (measured in chunks) 
 			#
-			lodChunkRenderDistance = 128
+			lodChunkRenderDistance = 512
 			# This indicates how detailed fake chunks will represent 
 			# overhangs, caves, floating islands, ect. 
 			# Higher options will make the world more accurate, but will increase memory and GPU usage. 
@@ -218,7 +218,7 @@ optionsButton = true
 			#
 			# This setting shouldn't affect performance. 
 			#
-			vanillaOverdraw = "DYNAMIC"
+			vanillaOverdraw = "ALWAYS"
 			# If on Vanilla Overdraw mode of NEVER, how much should should the border be offset? 
 			#
 			#  '1': The start of lods will be shifted inwards by 1 chunk, causing 1 chunk of overdraw. 
@@ -227,7 +227,7 @@ optionsButton = true
 			# This setting can be used to deal with gaps due to our vanilla rendered chunk 
 			#   detection not being perfect. 
 			#
-			overdrawOffset = 0
+			overdrawOffset = 2
 			# Will prevent some overdraw issues, but may cause nearby fake chunks to render incorrectly 
 			# especially when in/near an ocean. 
 			#
@@ -285,7 +285,7 @@ optionsButton = true
 		#
 		# Note that in server, distant generation is always off. 
 		#
-		enableDistantGeneration = false
+		enableDistantGeneration = true
 		distanceGenerationMode = "FEATURES"
 		# How should block and sky lights be processed for distant generation? 
 		#
@@ -409,7 +409,7 @@ optionsButton = true
 			# DEBUG: Debug testing renderer 
 			# DISABLED: Disable rendering 
 			#
-			rendererType = "DISABLED"
+			rendererType = "DEFAULT"
 			# Should specialized colors/rendering modes be used? 
 			#
 			# OFF: Fake chunks will be drawn with their normal colors. 
