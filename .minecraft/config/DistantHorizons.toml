@@ -386,7 +386,7 @@ optionsButton = true
 			# so if they add up to more threads than your CPU has cores, 
 			# that shouldn't cause an issue. 
 			#
-			numberOfWorldGenerationThreads = 4.0
+			numberOfWorldGenerationThreads = 2.0
 			# How many threads are used when building vertex buffers? 
 			# (The things sent to your GPU to draw the fake chunks). 
 			#
@@ -400,7 +400,7 @@ optionsButton = true
 			#
 			# The maximum value is the number of logical processors on your CPU. 
 			#
-			numberOfBufferBuilderThreads = 4
+			numberOfBufferBuilderThreads = 2
 
 		[client.advanced.debugging]
 			# What renderer is active? 
