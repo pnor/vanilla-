@@ -21,7 +21,7 @@ optionsButton = true
 			drawResolution = "BLOCK"
 			# The radius of the mod's render distance. (measured in chunks) 
 			#
-			lodChunkRenderDistance = 512
+			lodChunkRenderDistance = 128
 			# This indicates how detailed fake chunks will represent 
 			# overhangs, caves, floating islands, ect. 
 			# Higher options will make the world more accurate, but will increase memory and GPU usage. 
@@ -386,7 +386,7 @@ optionsButton = true
 			# so if they add up to more threads than your CPU has cores, 
 			# that shouldn't cause an issue. 
 			#
-			numberOfWorldGenerationThreads = 2.0
+			numberOfWorldGenerationThreads = 1.0
 			# How many threads are used when building vertex buffers? 
 			# (The things sent to your GPU to draw the fake chunks). 
 			#
