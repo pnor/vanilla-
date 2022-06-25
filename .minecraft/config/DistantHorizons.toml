@@ -400,7 +400,7 @@ optionsButton = true
 			#
 			# The maximum value is the number of logical processors on your CPU. 
 			#
-			numberOfBufferBuilderThreads = 2
+			numberOfBufferBuilderThreads = 1
 
 		[client.advanced.debugging]
 			# What renderer is active? 
@@ -431,39 +431,39 @@ optionsButton = true
 				# If enabled, the mod will log information about the world generation process. 
 				# This can be useful for debugging. 
 				#
-				logWorldGenEvent = "LOG_WARNING_TO_CHAT"
+				logWorldGenEvent = "DISABLED"
 				# If enabled, the mod will log performance about the world generation process. 
 				# This can be useful for debugging. 
 				#
-				logWorldGenPerformance = "LOG_WARNING_TO_CHAT_AND_FILE"
+				logWorldGenPerformance = "DISABLED"
 				# If enabled, the mod will log information about the world generation process. 
 				# This can be useful for debugging. 
 				#
-				logWorldGenLoadEvent = "LOG_WARNING_TO_CHAT_AND_FILE"
+				logWorldGenLoadEvent = "DISABLED"
 				# If enabled, the mod will log information about the LOD generation process. 
 				# This can be useful for debugging. 
 				#
-				logLodBuilderEvent = "LOG_WARNING_TO_CHAT_AND_INFO_TO_FILE"
+				logLodBuilderEvent = "DISABLED"
 				# If enabled, the mod will log information about the renderer buffer process. 
 				# This can be useful for debugging. 
 				#
-				logRendererBufferEvent = "LOG_WARNING_TO_CHAT_AND_INFO_TO_FILE"
+				logRendererBufferEvent = "DISABLED"
 				# If enabled, the mod will log information about the renderer OpenGL process. 
 				# This can be useful for debugging. 
 				#
-				logRendererGLEvent = "LOG_WARNING_TO_CHAT_AND_INFO_TO_FILE"
+				logRendererGLEvent = "DISABLED"
 				# If enabled, the mod will log information about file read/write operations. 
 				# This can be useful for debugging. 
 				#
-				logFileReadWriteEvent = "LOG_WARNING_TO_CHAT_AND_INFO_TO_FILE"
+				logFileReadWriteEvent = "DISABLED"
 				# If enabled, the mod will log information about file sub-dimension operations. 
 				# This can be useful for debugging. 
 				#
-				logFileSubDimEvent = "LOG_WARNING_TO_CHAT_AND_INFO_TO_FILE"
+				logFileSubDimEvent = "DISABLED"
 				# If enabled, the mod will log information about network operations. 
 				# This can be useful for debugging. 
 				#
-				logNetworkEvent = "LOG_WARNING_TO_CHAT_AND_INFO_TO_FILE"
+				logNetworkEvent = "DISABLED"
 
 		[client.advanced.buffers]
 			# What method should be used to upload geometry to the GPU? 

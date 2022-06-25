@@ -65,6 +65,8 @@ mode = "fancy"
 				phantom = true
 				experience_orb = true
 				parrot = true
+				husk = true
+				item_frame = true
 
 			[light_sources.settings.entities.betteranimalsplus]
 				dragonfly = true
