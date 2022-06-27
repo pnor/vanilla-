@@ -67,6 +67,7 @@ mode = "fancy"
 				parrot = true
 				husk = true
 				item_frame = true
+				polar_bear = true
 
 			[light_sources.settings.entities.betteranimalsplus]
 				dragonfly = true
