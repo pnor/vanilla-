@@ -1,12 +1,16 @@
 .git
+.minecraft/.DS_Store
 .minecraft/XaeroWaypoints
 .minecraft/XaeroWaypoints_BACKUP032021
 .minecraft/crash-reports
 .minecraft/dashloader-cache
+.minecraft/hs_err_pid2203.log
+.minecraft/hs_err_pid2246.log
+.minecraft/hs_err_pid2680.log
 .minecraft/logs
 .minecraft/saves
 .minecraft/screenshots
 .minecraft/servers.dat_old
 .minecraft/usercache.json
 
-.minecraft/Distant_Horizons_server_data/
+.minecraft/Distant_Horizons_server_dat
