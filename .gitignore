@@ -1,5 +1,6 @@
 .git
 .minecraft/.DS_Store
+.minecraft/Distant_Horizons_server_dat
 .minecraft/XaeroWaypoints
 .minecraft/XaeroWaypoints_BACKUP032021
 .minecraft/crash-reports
@@ -12,5 +13,3 @@
 .minecraft/screenshots
 .minecraft/servers.dat_old
 .minecraft/usercache.json
-
-.minecraft/Distant_Horizons_server_dat
