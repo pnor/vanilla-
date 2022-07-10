@@ -81,23 +81,23 @@ optionsButton = true
 				# If enabled, the mod will log information about the renderer OpenGL process. 
 				# This can be useful for debugging. 
 				#
-				logRendererGLEvent = "LOG_ALL_TO_CHAT"
+				logRendererGLEvent = "LOG_WARNING_TO_CHAT_AND_INFO_TO_FILE"
 				# If enabled, the mod will log performance about the world generation process. 
 				# This can be useful for debugging. 
 				#
-				logWorldGenPerformance = "LOG_ALL_TO_CHAT"
+				logWorldGenPerformance = "LOG_WARNING_TO_CHAT_AND_FILE"
 				# If enabled, the mod will log information about file sub-dimension operations. 
 				# This can be useful for debugging. 
 				#
-				logFileSubDimEvent = "LOG_ALL_TO_CHAT"
+				logFileSubDimEvent = "LOG_WARNING_TO_CHAT_AND_INFO_TO_FILE"
 				# If enabled, the mod will log information about file read/write operations. 
 				# This can be useful for debugging. 
 				#
-				logFileReadWriteEvent = "LOG_ALL_TO_CHAT"
+				logFileReadWriteEvent = "LOG_WARNING_TO_CHAT_AND_INFO_TO_FILE"
 				# If enabled, the mod will log information about network operations. 
 				# This can be useful for debugging. 
 				#
-				logNetworkEvent = "LOG_ALL_TO_CHAT"
+				logNetworkEvent = "LOG_WARNING_TO_CHAT_AND_INFO_TO_FILE"
 				# If enabled, the mod will log information about the renderer buffer process. 
 				# This can be useful for debugging. 
 				#
@@ -105,15 +105,15 @@ optionsButton = true
 				# If enabled, the mod will log information about the LOD generation process. 
 				# This can be useful for debugging. 
 				#
-				logLodBuilderEvent = "LOG_ALL_TO_CHAT"
+				logLodBuilderEvent = "LOG_WARNING_TO_CHAT_AND_INFO_TO_FILE"
 				# If enabled, the mod will log information about the world generation process. 
 				# This can be useful for debugging. 
 				#
-				logWorldGenEvent = "LOG_ALL_TO_CHAT"
+				logWorldGenEvent = "LOG_WARNING_TO_CHAT_AND_INFO_TO_FILE"
 				# If enabled, the mod will log information about the world generation process. 
 				# This can be useful for debugging. 
 				#
-				logWorldGenLoadEvent = "LOG_ALL_TO_CHAT"
+				logWorldGenLoadEvent = "LOG_WARNING_TO_CHAT_AND_FILE"
 
 		[client.advanced.threading]
 			# How many threads are used when building vertex buffers? 
@@ -129,7 +129,7 @@ optionsButton = true
 			#
 			# The maximum value is the number of logical processors on your CPU. 
 			#
-			numberOfBufferBuilderThreads = 4
+			numberOfBufferBuilderThreads = 1
 			# How many threads should be used when generating fake 
 			# chunks outside the normal render distance? 
 			#
@@ -144,7 +144,7 @@ optionsButton = true
 			# so if they add up to more threads than your CPU has cores, 
 			# that shouldn't cause an issue. 
 			#
-			numberOfWorldGenerationThreads = 2.0
+			numberOfWorldGenerationThreads = 1.0
 
 	[client.graphics]
 
@@ -475,7 +475,7 @@ optionsButton = true
 		#
 		# Note that in server, distant generation is always off. 
 		#
-		enableDistantGeneration = false
+		enableDistantGeneration = true
 
 	[client.multiplayer]
 		# When matching worlds of the same dimension type the 

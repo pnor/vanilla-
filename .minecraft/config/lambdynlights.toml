@@ -92,6 +92,9 @@ mode = "fancy"
 				fireball = true
 				ocelot = true
 				turtle = true
+				elder_guardian = true
+				guardian = true
+				trident = true
 
 			[light_sources.settings.entities.betteranimalsplus]
 				dragonfly = true
